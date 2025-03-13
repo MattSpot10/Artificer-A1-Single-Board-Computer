@@ -1,0 +1,1290 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d5b61900-1a76-4ddf-818b-b450aa23f023")
+	(paper "A4")
+	(title_block
+		(date "2025-02-20")
+		(rev "V0.1")
+		(company "Matthew Spotten")
+	)
+	(lib_symbols
+		(symbol "M8800DS2-40:M8800DS2-40"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -24.384 23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "M8800DS2-40:M8800DS2-40"
+				(at -2.794 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wifi&Bt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M8800DS2-40_0_1"
+				(rectangle
+					(start -21.59 21.59)
+					(end 21.59 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M8800DS2-40_1_1"
+				(pin power_in line
+					(at -24.13 12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 10.16 0)
+					(length 2.54)
+					(name "ANT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -24.13 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -24.13 5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -24.13 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 0 0)
+					(length 2.54)
+					(name "HOST_WAKE_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -24.13 -2.54 0)
+					(length 2.54)
+					(name "B_WAKE_HOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -24.13 -5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -24.13 -7.62 0)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -10.16 0)
+					(length 2.54)
+					(name "USBDM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -24.13 -12.7 0)
+					(length 2.54)
+					(name "USBDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 24.13 270)
+					(length 2.54)
+					(name "UART1_CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -24.13 90)
+					(length 2.54)
+					(name "PWR_KEY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 24.13 270)
+					(length 2.54)
+					(name "UART1_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -24.13 90)
+					(length 2.54)
+					(name "WL_HOST_WAKE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 24.13 270)
+					(length 2.54)
+					(name "UART1_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -24.13 90)
+					(length 2.54)
+					(name "SD_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 24.13 270)
+					(length 2.54)
+					(name "UART1_RTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -24.13 90)
+					(length 2.54)
+					(name "SD_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 24.13 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -24.13 90)
+					(length 2.54)
+					(name "SD_CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 24.13 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -24.13 90)
+					(length 2.54)
+					(name "SD_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 24.13 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -24.13 90)
+					(length 2.54)
+					(name "SD_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 24.13 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -24.13 90)
+					(length 2.54)
+					(name "SD_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 24.13 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -24.13 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 24.13 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -24.13 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 24.13 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -24.13 90)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 12.7 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 10.16 180)
+					(length 2.54)
+					(name "PWR_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 5.08 180)
+					(length 2.54)
+					(name "UART0_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 2.54 180)
+					(length 2.54)
+					(name "UART0_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 0 180)
+					(length 2.54)
+					(name "PCM_FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -2.54 180)
+					(length 2.54)
+					(name "PCM_DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -5.08 180)
+					(length 2.54)
+					(name "PCM_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 -7.62 180)
+					(length 2.54)
+					(name "PCM_DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -10.16 180)
+					(length 2.54)
+					(name "HOST_WAKE_WL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 -12.7 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:ANT162442DT-2001A2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ANT162442DT-2001A2"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:ANT-SMD_6P-L1.6-W0.8-L"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Pre-ordered-Products_TDK_ANT162442DT-2001A2_TDK-ANT162442DT-2001A2_C531339.html"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C531339"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ANT162442DT-2001A2_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "2.4GHz"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "Feed"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "Feed"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "5.5GHz"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "M8800DS2-40:M8800DS2-40")
+		(at 146.05 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b758def-b038-4070-a5b3-49b4a3def325")
+		(property "Reference" "U10"
+			(at 171.45 86.2898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 88.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "M8800DS2-40:M8800DS2-40"
+			(at 143.256 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "part datasheets/AIC8800D80_DataSheet_v0.1.pdf"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wifi&Bt"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a8ff7b15-7043-4e91-a37e-2393514da38b")
+		)
+		(pin "9"
+			(uuid "8ee4cb39-a27d-48f2-aa6e-09b27cddae20")
+		)
+		(pin "43"
+			(uuid "775db881-066a-494a-af79-acde86ce0a01")
+		)
+		(pin "44"
+			(uuid "62543a67-7c1d-4dfd-8be9-68d8d13e7704")
+		)
+		(pin "5"
+			(uuid "78791097-a7af-47b7-a005-bb5b3f5211db")
+		)
+		(pin "2"
+			(uuid "981c5117-7342-46c2-816c-a37c42ff94b8")
+		)
+		(pin "19"
+			(uuid "5cf8feb5-1d11-4484-b073-90d5c54d7015")
+		)
+		(pin "40"
+			(uuid "b94ac69c-169d-44fc-96aa-34f53f23d077")
+		)
+		(pin "14"
+			(uuid "7bdfdd0b-8a0b-4b15-a80b-e795a64ccef8")
+		)
+		(pin "1"
+			(uuid "b1677a75-89cd-4675-8a4a-36731dbe6320")
+		)
+		(pin "4"
+			(uuid "8706e158-e730-41b2-a1d4-b809fc6f21a3")
+		)
+		(pin "10"
+			(uuid "a3d5fe73-89c8-4f56-b177-99a0c89c5710")
+		)
+		(pin "6"
+			(uuid "a958b8b3-1572-458a-a388-eb4f7fa6d9ed")
+		)
+		(pin "3"
+			(uuid "013d0799-633c-40d2-a5e4-6fc971f77b99")
+		)
+		(pin "13"
+			(uuid "cad25944-bcc3-4b70-a772-420f15f308af")
+		)
+		(pin "12"
+			(uuid "09a0f0bf-53fa-4f92-9a3b-a4cdfd484dcb")
+		)
+		(pin "42"
+			(uuid "ea0bc13b-b639-4e62-a412-4ce8aa76e5e3")
+		)
+		(pin "7"
+			(uuid "7ebb855d-ce2b-4f1e-b1ad-6882f74d2853")
+		)
+		(pin "11"
+			(uuid "f8e3377e-06a3-4873-b802-09d0813630d3")
+		)
+		(pin "41"
+			(uuid "02da39d2-4079-4977-89b2-c8dca464d8c0")
+		)
+		(pin "15"
+			(uuid "88fa9c89-6b83-4fa5-b8db-01db8fd1e126")
+		)
+		(pin "16"
+			(uuid "5dfe74e6-ab00-414c-8ff6-43ba6cff93d3")
+		)
+		(pin "39"
+			(uuid "156628bc-1d64-4060-964b-1f5c7842265c")
+		)
+		(pin "17"
+			(uuid "fe7024b4-18c3-42df-b57f-b112ecbc53b6")
+		)
+		(pin "38"
+			(uuid "32401616-d09a-4f7e-a29e-6608c5ff1727")
+		)
+		(pin "18"
+			(uuid "81517525-0321-47a9-a219-d348b2073963")
+		)
+		(pin "37"
+			(uuid "9f1169a9-53d3-4645-a271-a6ddd7e811b0")
+		)
+		(pin "28"
+			(uuid "5f6ae031-ea97-4038-8291-91bcf0d73c5c")
+		)
+		(pin "33"
+			(uuid "424a6a4e-ba1d-47b8-8ac1-6da40a57fcbe")
+		)
+		(pin "31"
+			(uuid "e4c5d24f-b5a8-46f7-993b-568e7ebe6e85")
+		)
+		(pin "27"
+			(uuid "7e43e2a2-f0f6-483c-8b95-cc9d964accde")
+		)
+		(pin "24"
+			(uuid "f3a4b67a-c545-419a-b02d-28c7638e8f26")
+		)
+		(pin "20"
+			(uuid "cf2dbf82-83e7-4042-a8be-759266e218c8")
+		)
+		(pin "35"
+			(uuid "d43f717e-d114-439f-86d1-1a706f4e41a4")
+		)
+		(pin "32"
+			(uuid "64dd99fb-58f4-4bb0-b1b6-ceeb1a3fa507")
+		)
+		(pin "34"
+			(uuid "2e72af4d-50fc-4568-b496-2f3af1e92de7")
+		)
+		(pin "36"
+			(uuid "5b22d0d1-cbab-4ccc-a48e-9fdfb10ab90d")
+		)
+		(pin "22"
+			(uuid "421c0753-37fe-447d-ab05-7b0eaa66d461")
+		)
+		(pin "29"
+			(uuid "9be29d7f-eacb-4f9f-86f6-ddf6c969a77d")
+		)
+		(pin "21"
+			(uuid "45d41f4f-30da-4af9-8643-e92361f07c5c")
+		)
+		(pin "25"
+			(uuid "4350f4a6-0875-47f8-a6f6-14ed4d1447b4")
+		)
+		(pin "23"
+			(uuid "38738456-799d-48ce-a30e-2704896abe49")
+		)
+		(pin "30"
+			(uuid "2f9f7f52-beed-4f5d-b314-7254fc52ddb1")
+		)
+		(pin "26"
+			(uuid "be72cbd7-4e12-471a-bb00-8bed00a55b05")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ANT162442DT-2001A2")
+		(at 74.93 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76edff49-eeb4-48d9-b58b-ed5dab1d08f8")
+		(property "Reference" "L1"
+			(at 95.25 87.2646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ANT162442DT-2001A2"
+			(at 95.25 89.8046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:ANT-SMD_6P-L1.6-W0.8-L"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pre-ordered-Products_TDK_ANT162442DT-2001A2_TDK-ANT162442DT-2001A2_C531339.html"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C531339"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27b09be-9cc4-4e06-802d-803bb0769067")
+		)
+		(pin "2"
+			(uuid "c1a7fba5-0931-4b5e-a33c-7e6acefd3de3")
+		)
+		(pin "5"
+			(uuid "1bf9d6b6-3558-4e48-98c2-544afe00650f")
+		)
+		(pin "4"
+			(uuid "b39bdb0a-712f-4602-bf2a-89d0409067ef")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M8800DS2-40")(type "KiCad")(uri "${KIPRJMOD}/M8800DS2-40.kicad_sym")(options "")(descr ""))
+)
