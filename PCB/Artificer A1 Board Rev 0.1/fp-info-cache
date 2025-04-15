@@ -1,4 +1,4 @@
-24761716546977535
+24775655535994929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65848,13 +65848,6 @@ Yellow 5381 Series LED
 0
 2
 2
-M8800DS2-40
-M8800DS2-40
-
-
-0
-44
-44
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -99547,6 +99540,27 @@ CONN-SMD_X3113WVS-36-9TV01
 40
 37
 easyeda2kicad
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+easyeda2kicad
+DC-IN-TH_DC-S007A-D020-15A
+
+
+0
+5
+2
+easyeda2kicad
+DFN-8_L3.0-W3.0-P0.65-BL
+
+
+0
+9
+9
+easyeda2kicad
 DP-SMD_CAR06-201EN5F
 
 
@@ -99589,6 +99603,20 @@ RJ45-TH_HR911130A
 18
 16
 easyeda2kicad
+SMC_L6.9-W5.9-LS7.9-BI
+
+
+0
+2
+2
+easyeda2kicad
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+6
+6
+easyeda2kicad
 TF-SMD_TF-110
 
 
@@ -99610,9 +99638,37 @@ USB-C-SMD_G-SWITCH_GT-USB-7010ASV
 18
 16
 easyeda2kicad
+USB3.0-A-TH_HC-USB3.0-L168-ZJ
+
+
+0
+11
+11
+easyeda2kicad
 WQFN-40_L5.0-W5.0-P0.4-BL-EP
 
 
 0
 41
 41
+local_footprints
+AXP323
+QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+35
+21
+local_footprints
+LINK-PP_LPJG0926HENL
+
+
+0
+20
+20
+local_footprints
+M8800DS2-40
+
+
+0
+44
+44

@@ -15,7 +15,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -24.384 23.876 0)
+				(at -23.368 30.988 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,8 +30,8 @@
 					)
 				)
 			)
-			(property "Footprint" "M8800DS2-40:M8800DS2-40"
-				(at -2.794 4.572 0)
+			(property "Footprint" "local_footprints:M8800DS2-40"
+				(at 1.27 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +49,7 @@
 				)
 			)
 			(property "Description" "Wifi&Bt"
-				(at 0 0 0)
+				(at 0.254 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,8 +59,8 @@
 			)
 			(symbol "M8800DS2-40_0_1"
 				(rectangle
-					(start -21.59 21.59)
-					(end 21.59 -21.59)
+					(start -21.59 29.21)
+					(end 21.59 -29.21)
 					(stroke
 						(width 0)
 						(type default)
@@ -72,7 +72,7 @@
 			)
 			(symbol "M8800DS2-40_1_1"
 				(pin power_in line
-					(at -24.13 12.7 0)
+					(at -24.13 26.67 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -90,7 +90,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -24.13 10.16 0)
+					(at -24.13 24.13 0)
 					(length 2.54)
 					(name "ANT0"
 						(effects
@@ -108,7 +108,7 @@
 					)
 				)
 				(pin power_in line
-					(at -24.13 7.62 0)
+					(at -24.13 21.59 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -126,7 +126,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -24.13 5.08 0)
+					(at -24.13 19.05 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -144,7 +144,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -24.13 2.54 0)
+					(at -24.13 16.51 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -162,7 +162,7 @@
 					)
 				)
 				(pin input line
-					(at -24.13 0 0)
+					(at -24.13 13.97 0)
 					(length 2.54)
 					(name "HOST_WAKE_B"
 						(effects
@@ -180,7 +180,7 @@
 					)
 				)
 				(pin output line
-					(at -24.13 -2.54 0)
+					(at -24.13 11.43 0)
 					(length 2.54)
 					(name "B_WAKE_HOST"
 						(effects
@@ -198,7 +198,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -24.13 -5.08 0)
+					(at -24.13 8.89 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -216,7 +216,7 @@
 					)
 				)
 				(pin power_in line
-					(at -24.13 -7.62 0)
+					(at -24.13 6.35 0)
 					(length 2.54)
 					(name "VDD33"
 						(effects
@@ -234,7 +234,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -24.13 -10.16 0)
+					(at -24.13 3.81 0)
 					(length 2.54)
 					(name "USBDM"
 						(effects
@@ -252,7 +252,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -24.13 -12.7 0)
+					(at -24.13 1.27 0)
 					(length 2.54)
 					(name "USBDP"
 						(effects
@@ -270,25 +270,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 24.13 270)
-					(length 2.54)
-					(name "UART1_CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -24.13 90)
+					(at -24.13 -1.27 0)
 					(length 2.54)
 					(name "PWR_KEY"
 						(effects
@@ -305,26 +287,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 24.13 270)
-					(length 2.54)
-					(name "UART1_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at -10.16 -24.13 90)
+					(at -24.13 -3.81 0)
 					(length 2.54)
 					(name "WL_HOST_WAKE"
 						(effects
@@ -341,26 +305,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at -7.62 24.13 270)
-					(length 2.54)
-					(name "UART1_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at -7.62 -24.13 90)
+					(at -24.13 -6.35 0)
 					(length 2.54)
 					(name "SD_D2"
 						(effects
@@ -377,26 +323,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at -5.08 24.13 270)
-					(length 2.54)
-					(name "UART1_RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at -5.08 -24.13 90)
+					(at -24.13 -8.89 0)
 					(length 2.54)
 					(name "SD_D3"
 						(effects
@@ -413,26 +341,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 24.13 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at -2.54 -24.13 90)
+					(at -24.13 -11.43 0)
 					(length 2.54)
 					(name "SD_CMD"
 						(effects
@@ -449,26 +359,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 24.13 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at 0 -24.13 90)
+					(at -24.13 -13.97 0)
 					(length 2.54)
 					(name "SD_CLK"
 						(effects
@@ -485,26 +377,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 2.54 24.13 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 2.54 -24.13 90)
+					(at -24.13 -16.51 0)
 					(length 2.54)
 					(name "SD_D0"
 						(effects
@@ -521,26 +395,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 24.13 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 5.08 -24.13 90)
+					(at -24.13 -19.05 0)
 					(length 2.54)
 					(name "SD_D1"
 						(effects
@@ -558,25 +414,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 24.13 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -24.13 90)
+					(at -24.13 -21.59 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -594,25 +432,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 24.13 270)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -24.13 90)
+					(at -24.13 -24.13 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -629,26 +449,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 24.13 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at 12.7 -24.13 90)
+					(at -24.13 -26.67 0)
 					(length 2.54)
 					(name "VIO"
 						(effects
@@ -665,8 +467,206 @@
 						)
 					)
 				)
+				(pin input line
+					(at 24.13 26.67 180)
+					(length 2.54)
+					(name "UART1_CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 24.13 180)
+					(length 2.54)
+					(name "UART1_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 21.59 180)
+					(length 2.54)
+					(name "UART1_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 24.13 19.05 180)
+					(length 2.54)
+					(name "UART1_RTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
-					(at 24.13 12.7 180)
+					(at 24.13 16.51 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 13.97 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 11.43 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 8.89 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 -1.27 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -684,7 +684,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 24.13 10.16 180)
+					(at 24.13 -3.81 180)
 					(length 2.54)
 					(name "PWR_B"
 						(effects
@@ -702,7 +702,7 @@
 					)
 				)
 				(pin power_in line
-					(at 24.13 7.62 180)
+					(at 24.13 -6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -720,7 +720,7 @@
 					)
 				)
 				(pin input line
-					(at 24.13 5.08 180)
+					(at 24.13 -8.89 180)
 					(length 2.54)
 					(name "UART0_RX"
 						(effects
@@ -738,7 +738,7 @@
 					)
 				)
 				(pin output line
-					(at 24.13 2.54 180)
+					(at 24.13 -11.43 180)
 					(length 2.54)
 					(name "UART0_TX"
 						(effects
@@ -756,7 +756,7 @@
 					)
 				)
 				(pin input line
-					(at 24.13 0 180)
+					(at 24.13 -13.97 180)
 					(length 2.54)
 					(name "PCM_FSYNC"
 						(effects
@@ -774,7 +774,7 @@
 					)
 				)
 				(pin input line
-					(at 24.13 -2.54 180)
+					(at 24.13 -16.51 180)
 					(length 2.54)
 					(name "PCM_DIN"
 						(effects
@@ -792,7 +792,7 @@
 					)
 				)
 				(pin input line
-					(at 24.13 -5.08 180)
+					(at 24.13 -19.05 180)
 					(length 2.54)
 					(name "PCM_CLK"
 						(effects
@@ -810,7 +810,7 @@
 					)
 				)
 				(pin output line
-					(at 24.13 -7.62 180)
+					(at 24.13 -21.59 180)
 					(length 2.54)
 					(name "PCM_DOUT"
 						(effects
@@ -828,7 +828,7 @@
 					)
 				)
 				(pin input line
-					(at 24.13 -10.16 180)
+					(at 24.13 -24.13 180)
 					(length 2.54)
 					(name "HOST_WAKE_WL"
 						(effects
@@ -846,7 +846,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 24.13 -12.7 180)
+					(at 24.13 -26.67 180)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -1036,7 +1036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M8800DS2-40:M8800DS2-40"
+		(property "Footprint" "local_footprints:M8800DS2-40"
 			(at 143.256 99.568 0)
 			(effects
 				(font
