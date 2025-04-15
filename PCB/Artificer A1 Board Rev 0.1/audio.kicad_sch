@@ -10,7 +10,7 @@
 		(company "Matthew Spotten")
 	)
 	(lib_symbols
-		(symbol "easyeda2kicad:PJ-3220-B"
+		(symbol "easyeda:PJ-3220-B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-3220-Y"
+			(property "Footprint" "easyeda:AUDIO-TH_PJ-3220-Y"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -215,17 +215,17 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PJ-3220-B")
-		(at 129.54 91.44 0)
+		(lib_id "easyeda:PJ-3220-B")
+		(at 139.7 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d8a3bf5-2205-4287-8d73-29c109de36c9")
+		(uuid "2ca0df1f-7912-48a3-b073-bc92b4251940")
 		(property "Reference" "CN1"
-			(at 128.27 82.55 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,15 +233,15 @@
 			)
 		)
 		(property "Value" "PJ-3220-B"
-			(at 128.27 85.09 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-3220-Y"
-			(at 129.54 102.87 0)
+		(property "Footprint" "easyeda:AUDIO-TH_PJ-3220-Y"
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 91.44 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +259,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 91.44 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,7 +268,7 @@
 			)
 		)
 		(property "LCSC Part" "C2885035"
-			(at 129.54 105.41 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,16 +277,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "448ca822-2245-4610-8ea7-c9bbd3445d96")
-		)
-		(pin "2"
-			(uuid "3aadbf5f-7f93-484a-8fcd-db873b91dbf2")
+			(uuid "481e7280-755c-4b4c-a362-c9755511e5af")
 		)
 		(pin "4"
-			(uuid "eaf54c8f-0ced-485c-be55-2d79323b0713")
+			(uuid "0240d632-ea73-4ddd-ad7b-1f8b266cba89")
 		)
 		(pin "3"
-			(uuid "cf45b920-782d-4037-bf68-0168e645cafe")
+			(uuid "59ea2101-9fed-4473-aadc-6ceae9ae8077")
+		)
+		(pin "2"
+			(uuid "ad20c78c-fd04-4bda-b61e-cfd6ca109d91")
 		)
 		(instances
 			(project ""

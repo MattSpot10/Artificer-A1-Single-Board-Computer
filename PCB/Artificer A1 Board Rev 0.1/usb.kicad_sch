@@ -273,7 +273,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:CH217K"
+		(symbol "easyeda:CH217K"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -293,7 +293,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(property "Footprint" "easyeda:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -463,7 +463,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:CH334F_C5187527"
+		(symbol "easyeda:CH334F_C5187527"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -483,7 +483,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8"
+			(property "Footprint" "easyeda:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -995,7 +995,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:DoublelayerDIP90°black"
+		(symbol "easyeda:DoublelayerDIP90°black"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1015,7 +1015,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:USB-A-TH_USB-M-51"
+			(property "Footprint" "easyeda:USB-A-TH_USB-M-51"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1228,7 +1228,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:SMD-3225_4P12M12PF10PPM"
+		(symbol "easyeda:SMD-3225_4P12M12PF10PPM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1248,7 +1248,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+			(property "Footprint" "easyeda:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2056,10 +2056,10 @@
 		(uuid "4243c7ff-2600-4dc1-82f5-d1641947601c")
 	)
 	(junction
-		(at 38.1 116.84)
+		(at 38.1 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "489cb335-c2a2-45af-97d9-c258859ae78d")
+		(uuid "7221549c-641d-407f-a196-4d9b8d27d7c6")
 	)
 	(junction
 		(at 62.23 129.54)
@@ -2104,16 +2104,16 @@
 		(uuid "b581a536-783d-45bf-a38e-7e90c4f31e81")
 	)
 	(junction
+		(at 38.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb8f465b-8ded-415c-9ecc-0f2a8dd600bb")
+	)
+	(junction
 		(at 62.23 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0258337-9dfc-4b72-8f85-fabbaa4a14d0")
-	)
-	(junction
-		(at 38.1 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f96f2eb3-6aef-4469-a27b-1f00255ddb0e")
 	)
 	(no_connect
 		(at 199.39 77.47)
@@ -2237,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 59.69) (xy 38.1 72.39)
+			(xy 38.1 46.99) (xy 38.1 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2327,6 +2327,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 59.69) (xy 38.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aef1340-9b19-4e9c-922a-e7519eb28bc2")
+	)
+	(wire
+		(pts
 			(xy 85.09 138.43) (xy 45.72 138.43)
 		)
 		(stroke
@@ -2354,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "4b0c26ab-e288-4ad8-9997-35e5ecf0024c")
-	)
-	(wire
-		(pts
-			(xy 38.1 46.99) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c95def1-9ee9-44f7-b08c-f7c87198053e")
 	)
 	(wire
 		(pts
@@ -2444,16 +2444,6 @@
 			(type default)
 		)
 		(uuid "651e096e-960b-4338-9be7-48299dcdb1c2")
-	)
-	(wire
-		(pts
-			(xy 38.1 116.84) (xy 38.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0dd6c6-f190-456f-aa6c-b0b7760f0afc")
 	)
 	(wire
 		(pts
@@ -2614,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "ae273a5a-4b49-4a12-93bf-c3ee3fc277fb")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b133aa-3a54-4a0a-9628-ac5c51832586")
 	)
 	(wire
 		(pts
@@ -2953,6 +2953,152 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:CH334F_C5187527")
+		(at 181.61 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16c34d49-2633-4622-be31-7f7105654401")
+		(property "Reference" "U3"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH334F_C5187527"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://USB Hub Controller - CH334DS1.pdf"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5187527"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146bdf66-042e-4160-af11-a78c4dbd305c")
+		)
+		(pin "3"
+			(uuid "28d0986b-70f0-49fd-bb51-a8c7ef0e674b")
+		)
+		(pin "24"
+			(uuid "9fdeeb7e-b81e-454a-bd11-ba693b22ce97")
+		)
+		(pin "2"
+			(uuid "45d7f646-bc3e-452a-9507-4d8dcacbe986")
+		)
+		(pin "5"
+			(uuid "35c11174-dd80-4448-8443-6eaa5c5b26fb")
+		)
+		(pin "7"
+			(uuid "f955c9d2-a9e6-442b-98d5-827769618662")
+		)
+		(pin "4"
+			(uuid "ad474236-79bb-4917-a52e-482a7cdcf11c")
+		)
+		(pin "8"
+			(uuid "a996fb28-1528-41c1-b5ff-9230746d9012")
+		)
+		(pin "11"
+			(uuid "535e2208-2966-4e1e-a034-36e9da34476d")
+		)
+		(pin "25"
+			(uuid "0dc91fc5-1bb6-4fca-b730-f2ff6fd83a3b")
+		)
+		(pin "14"
+			(uuid "3d334618-009a-4dfa-a381-342f968d74d4")
+		)
+		(pin "9"
+			(uuid "2d55fad9-e91b-47ce-a9d2-0b43df6fb59c")
+		)
+		(pin "10"
+			(uuid "84c759f8-cde1-4e94-ab84-31023a60fcba")
+		)
+		(pin "6"
+			(uuid "db0a375a-e355-4571-b31e-b118dda5b425")
+		)
+		(pin "12"
+			(uuid "dc557fed-d6b4-4b0d-bcdd-82a9ee8ef62c")
+		)
+		(pin "23"
+			(uuid "09163fd9-12c7-44e9-a6a1-6f0f0841f694")
+		)
+		(pin "22"
+			(uuid "8d71ecf0-bb71-4786-8faa-2f098424d945")
+		)
+		(pin "21"
+			(uuid "c37e1a83-b379-4cd7-a317-15ccb991ed52")
+		)
+		(pin "19"
+			(uuid "1c3d39f4-904b-43c0-8b1f-06af9300abcd")
+		)
+		(pin "20"
+			(uuid "8d5264af-9207-4525-81b0-9207679b0277")
+		)
+		(pin "18"
+			(uuid "d2bb0e7f-d1ff-4120-bcc1-9fc002deaf44")
+		)
+		(pin "17"
+			(uuid "a600b04e-786d-4796-a08a-db78d0f89256")
+		)
+		(pin "16"
+			(uuid "316d9e64-0436-4bea-ba9e-f812616ba2fb")
+		)
+		(pin "15"
+			(uuid "ba4051ae-1cc0-4b45-a612-df0cc2305d58")
+		)
+		(pin "13"
+			(uuid "313bd0cc-9674-40b1-9a49-4c2dcf1e161e")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 66.04 129.54 90)
 		(unit 1)
@@ -3223,6 +3369,106 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:DoublelayerDIP90°black")
+		(at 45.72 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a64e17-cfd2-4d46-8945-bee99c42cd43")
+		(property "Reference" "USB1"
+			(at 54.61 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Double layer DIP 90° black"
+			(at 54.61 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:USB-A-TH_USB-M-51"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-A-F-Double-layer-DIP-900-Iron-shell-black-Not-high-temperature_C12049.html"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12049"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "333e2333-ffed-4bff-a438-78b0a0b49227")
+		)
+		(pin "1"
+			(uuid "d910878f-68b3-4f2e-a696-10b6c465ffbf")
+		)
+		(pin "2"
+			(uuid "d2e7ea60-7965-447a-ba9a-b542106049af")
+		)
+		(pin "8"
+			(uuid "38b33696-ba92-46f0-a133-e316a8fd0887")
+		)
+		(pin "6"
+			(uuid "34ca1270-ab85-4a54-ac8e-58d0512f1e47")
+		)
+		(pin "4"
+			(uuid "171abc76-bf28-4c94-8b53-4bf32598aa25")
+		)
+		(pin "9"
+			(uuid "fdbe7ca5-f0b2-40e4-9742-14c93f3b972c")
+		)
+		(pin "5"
+			(uuid "1c0a5c53-3963-4c32-acfb-ab44571a7444")
+		)
+		(pin "7"
+			(uuid "ae8ee292-a19b-4e83-8dd0-2890d3920200")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 245.11 82.55 270)
 		(unit 1)
@@ -3284,95 +3530,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CH217K")
-		(at 181.61 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44eca7ff-9395-4033-8c46-62b2e3c6058d")
-		(property "Reference" "U11"
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH217K"
-			(at 181.61 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "part datasheets/CH217DS1.PDF"
-			(at 181.61 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7462749"
-			(at 181.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "385ae369-256c-45ba-ac0c-09eef2d47177")
-		)
-		(pin "5"
-			(uuid "44a7cda9-98cf-4f80-9edb-e87baea36b1d")
-		)
-		(pin "3"
-			(uuid "348c5b63-41da-461e-99fd-05165e3ad6fb")
-		)
-		(pin "4"
-			(uuid "dc5f2b8b-552f-4204-a4ff-28b5d768f092")
-		)
-		(pin "2"
-			(uuid "6ce01970-ba55-48eb-ba9c-faae5805e7ab")
-		)
-		(pin "1"
-			(uuid "f16ea400-7889-4157-ae16-5fda03b81dc6")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3639,6 +3796,106 @@
 			(project ""
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:DoublelayerDIP90°black")
+		(at 45.72 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed2ce49-27dc-4fd0-9715-c46fb4118a44")
+		(property "Reference" "USB2"
+			(at 54.61 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Double layer DIP 90° black"
+			(at 54.61 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:USB-A-TH_USB-M-51"
+			(at 30.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-A-F-Double-layer-DIP-900-Iron-shell-black-Not-high-temperature_C12049.html"
+			(at 27.94 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12049"
+			(at 25.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f66c89-1260-4aba-ad13-373c0917dcd0")
+		)
+		(pin "8"
+			(uuid "00b94b0c-f0e1-4448-abcb-76928cb831b6")
+		)
+		(pin "3"
+			(uuid "0c6498fe-3b66-400d-8312-320fdb9cdc16")
+		)
+		(pin "4"
+			(uuid "00d6068c-fd5d-41d0-a27c-e4b7503926bd")
+		)
+		(pin "2"
+			(uuid "96cff508-f08a-4a9d-b4b8-cd7f0eaab667")
+		)
+		(pin "9"
+			(uuid "71847422-9929-4488-b39d-2b8b489fb6b2")
+		)
+		(pin "5"
+			(uuid "26489652-3d48-4215-8e01-01c264153597")
+		)
+		(pin "6"
+			(uuid "14fe045a-5214-4834-a30c-77fe957ce0d8")
+		)
+		(pin "7"
+			(uuid "03c263b8-8698-4858-9bcf-910c9126cc7a")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "USB2")
 					(unit 1)
 				)
 			)
@@ -3918,6 +4175,89 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:SMD-3225_4P12M12PF10PPM")
+		(at 128.27 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eda2499-6a77-4d12-8b05-d02aa7487992")
+		(property "Reference" "X1"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD-3225_4P12M12PF10PPM"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Crystals_SMD-3225-4P-12M-12pf-10ppm_C133337.html"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C133337"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "01550ac9-2369-42b2-8db2-9322b64c64c5")
+		)
+		(pin "1"
+			(uuid "c6d97b5e-901f-46a0-9b7e-63df4119c9fa")
+		)
+		(pin "3"
+			(uuid "b520ffd6-16f8-49e9-922d-a6f12eb36aa7")
+		)
+		(pin "2"
+			(uuid "034cfdf0-d49d-48f4-9b45-7c3c9edf2a39")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 205.74 40.64 90)
 		(unit 1)
@@ -3985,106 +4325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:DoublelayerDIP90°black")
-		(at 45.72 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "825ebc1f-830c-4128-b4d6-f6ce43737fc7")
-		(property "Reference" "USB1"
-			(at 54.61 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Double layer DIP 90° black"
-			(at 54.61 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:USB-A-TH_USB-M-51"
-			(at 30.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-A-F-Double-layer-DIP-900-Iron-shell-black-Not-high-temperature_C12049.html"
-			(at 27.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C12049"
-			(at 25.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "3d4e16d5-f947-4b5f-b4bc-91f9b0d913ab")
-		)
-		(pin "7"
-			(uuid "698a2514-3d6f-4657-a5c5-c556a623de91")
-		)
-		(pin "3"
-			(uuid "ebb6cab6-5cc9-489e-9725-d7006c3214ff")
-		)
-		(pin "9"
-			(uuid "b093956f-4ef9-49d2-9667-95332c0458f2")
-		)
-		(pin "1"
-			(uuid "573be43a-8bdf-429f-bdf9-63630446c981")
-		)
-		(pin "4"
-			(uuid "6d4137fa-2a1f-4797-bb99-b69bb03837e8")
-		)
-		(pin "8"
-			(uuid "f61db4e4-5ccc-4e37-9d30-14c241e72b74")
-		)
-		(pin "2"
-			(uuid "19c7c8ff-3690-40ab-8a09-7e09aef3eaa4")
-		)
-		(pin "6"
-			(uuid "3b23c73e-0def-4111-bc60-879e9b86619a")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "USB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 129.54 0)
 		(unit 1)
@@ -4145,235 +4385,6 @@
 			(project ""
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CH334F_C5187527")
-		(at 181.61 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "879137a5-5657-4368-8804-55fd3ee5e8b0")
-		(property "Reference" "U3"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH334F_C5187527"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "part datasheets/USB Hub Controller - CH334DS1.pdf"
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5187527"
-			(at 181.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "8a13b0b0-6279-4a67-9b3d-8dcf59889f6a")
-		)
-		(pin "25"
-			(uuid "ed61333b-fd51-4c71-9664-fbf7a7e3d142")
-		)
-		(pin "18"
-			(uuid "84d11be9-7a42-4f8c-ac2a-1c23b5cbcf4e")
-		)
-		(pin "15"
-			(uuid "8c011221-e93c-4ad9-9f78-239b5e914797")
-		)
-		(pin "13"
-			(uuid "493fb0f3-86ce-4849-adaa-067c697b3db8")
-		)
-		(pin "4"
-			(uuid "0d2e14e2-99a0-4a98-b445-316012d4c896")
-		)
-		(pin "2"
-			(uuid "1055d1b2-af6e-45a2-b587-3a7176871cf0")
-		)
-		(pin "6"
-			(uuid "30dcb138-f290-4777-8131-db2fe54cdd7e")
-		)
-		(pin "23"
-			(uuid "b66d35be-1ce3-4203-a841-98961ebe7517")
-		)
-		(pin "20"
-			(uuid "47d77d06-cc0f-48df-941d-42c3d4383098")
-		)
-		(pin "17"
-			(uuid "c37ea627-9454-4d6e-a61d-7da7075dfd07")
-		)
-		(pin "3"
-			(uuid "817e1ef0-d6a5-4a58-9289-42a2e0384b6b")
-		)
-		(pin "12"
-			(uuid "794a6635-0513-43df-9bd0-e730b42d1c8a")
-		)
-		(pin "5"
-			(uuid "f7a7ad40-8fdc-4b9a-a9b0-8f2a6a040eab")
-		)
-		(pin "24"
-			(uuid "00cd3105-7576-4449-a253-d8612e08d1ab")
-		)
-		(pin "21"
-			(uuid "036c593f-2674-4ab2-b860-5df8a796e71d")
-		)
-		(pin "8"
-			(uuid "32bb3ae6-e447-468a-bde1-0ff20f779448")
-		)
-		(pin "22"
-			(uuid "5efe72bf-b6e2-4b7f-a08e-d5b2efaa48b6")
-		)
-		(pin "1"
-			(uuid "4fd3c58a-ec0d-4137-bc09-64858b208ff0")
-		)
-		(pin "9"
-			(uuid "327ac622-eede-4ad5-91b8-3ab7c9ac7ad2")
-		)
-		(pin "7"
-			(uuid "ae8a642a-bdd3-4062-986b-185f083ce0ff")
-		)
-		(pin "11"
-			(uuid "e9d133ae-2b62-432f-b047-c9538ecc8f6c")
-		)
-		(pin "19"
-			(uuid "739fbb41-fcf1-469d-82c2-25a0a0af8166")
-		)
-		(pin "16"
-			(uuid "22be39f6-e906-4005-8528-e732a80ff58b")
-		)
-		(pin "14"
-			(uuid "fc22f01c-4d0d-4320-bf93-95c5ef2ce2b7")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:SMD-3225_4P12M12PF10PPM")
-		(at 128.27 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89b1fd2e-c324-4cd7-8b87-540c46d78213")
-		(property "Reference" "X1"
-			(at 128.27 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMD-3225_4P12M12PF10PPM"
-			(at 128.27 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Crystals_SMD-3225-4P-12M-12pf-10ppm_C133337.html"
-			(at 128.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C133337"
-			(at 128.27 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c4da30db-04cb-4ea2-8185-cb9f33d9c068")
-		)
-		(pin "1"
-			(uuid "d0d984bf-462f-4635-9f61-db91cebd8354")
-		)
-		(pin "2"
-			(uuid "908f884a-7785-406b-b1c2-d0da06ea9a88")
-		)
-		(pin "3"
-			(uuid "ef6e5b4a-f954-4dcd-90b8-0dfee76b4aca")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -4638,6 +4649,95 @@
 			(project ""
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:CH217K")
+		(at 181.61 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b260e9de-cc3f-41e3-9ce4-78ac02b6a933")
+		(property "Reference" "U11"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH217K"
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 181.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://CH217DS1.PDF"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7462749"
+			(at 181.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "58d33047-e43b-4eec-a7aa-33635b64f707")
+		)
+		(pin "3"
+			(uuid "015be4ab-220e-4a42-957a-ab2274280386")
+		)
+		(pin "5"
+			(uuid "9601ccff-01d4-47c9-aa06-2c23a7866501")
+		)
+		(pin "4"
+			(uuid "9421b676-34fe-46bd-9732-738d3fa5a443")
+		)
+		(pin "2"
+			(uuid "68fdda7e-fbac-4612-955f-4dda3923f604")
+		)
+		(pin "1"
+			(uuid "4a52fc53-1dbf-46c8-b505-a902e114e979")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5445,105 +5545,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:DoublelayerDIP90°black")
-		(at 45.72 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f19e64d2-3fe1-4d91-9b20-0643aef9197a")
-		(property "Reference" "USB2"
-			(at 54.61 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Double layer DIP 90° black"
-			(at 54.61 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:USB-A-TH_USB-M-51"
-			(at 30.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_USB-A-F-Double-layer-DIP-900-Iron-shell-black-Not-high-temperature_C12049.html"
-			(at 27.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C12049"
-			(at 25.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69ce6e2a-2ef5-48cd-99a0-4bdfcda101f2")
-		)
-		(pin "4"
-			(uuid "fd6a8fb5-6b47-4450-96b8-f5d400a74b09")
-		)
-		(pin "3"
-			(uuid "8fe193f5-5e9d-43ee-8fad-ccbfbe1f72e3")
-		)
-		(pin "2"
-			(uuid "e2dd1d83-1249-4af2-bbf5-06fd59596064")
-		)
-		(pin "7"
-			(uuid "646cb261-9b6d-4142-8075-5b145949a9c5")
-		)
-		(pin "9"
-			(uuid "5dfbac2e-e37f-4cd3-b2eb-5e3bd90ead2f")
-		)
-		(pin "8"
-			(uuid "6d756713-a8e4-4029-98ed-2904bec2e316")
-		)
-		(pin "5"
-			(uuid "7bc330ce-e1dc-4de5-ab6e-a5118d553ba3")
-		)
-		(pin "6"
-			(uuid "02707bca-baa5-4ba5-8db5-62f289f4d338")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "USB2")
 					(unit 1)
 				)
 			)

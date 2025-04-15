@@ -1,0 +1,49 @@
+Laptop - Latitude E5400
+
+easyeda2kicad --full --lcsc_id=C28310420 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+all the parts  changed to be local to the project
+
+easyeda2kicad --full --lcsc_id=C5187527 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C7462749 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C133337 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C12049 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C28310420 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C5711223 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C18213861 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C908454 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C2885035 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C2997897 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C7462749 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C2988369 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C266613 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C531339 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"
+
+easyeda2kicad --full --lcsc_id=C2842431 --output="C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Artificer A1 Board Rev 0.1\libs\easyeda"

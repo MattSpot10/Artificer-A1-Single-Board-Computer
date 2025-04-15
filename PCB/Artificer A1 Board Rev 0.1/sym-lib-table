@@ -1,6 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "M8800DS2-40")(type "KiCad")(uri "${KIPRJMOD}/local_symbols/M8800DS2-40.kicad_sym")(options "")(descr ""))
-  (lib (name "AXP323")(type "KiCad")(uri "${KIPRJMOD}/local_symbols/AXP323.kicad_sym")(options "")(descr ""))
-  (lib (name "LPJG0926HENL")(type "KiCad")(uri "${KIPRJMOD}/local_symbols/LPJG0926HENL.kicad_sym")(options "")(descr ""))
+  (lib (name "M8800DS2-40")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/M8800DS2-40.kicad_sym")(options "")(descr ""))
+  (lib (name "AXP323")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/AXP323.kicad_sym")(options "")(descr ""))
+  (lib (name "LPJG0926HENL")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/LPJG0926HENL.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda.kicad_sym")(options "")(descr ""))
 )
