@@ -16145,7 +16145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 214.63 147.32 0)
 			(effects
 				(font
@@ -18208,7 +18208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 74.93 148.59 0)
 			(effects
 				(font
@@ -20271,7 +20271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 170.18 386.08 0)
 			(effects
 				(font
@@ -22334,7 +22334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 391.16 350.52 0)
 			(effects
 				(font
@@ -24397,7 +24397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 290.83 280.67 0)
 			(effects
 				(font
@@ -26460,7 +26460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 410.21 158.75 0)
 			(effects
 				(font
@@ -28523,7 +28523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "libs/_datasheets/SoC - 2410121930_Allwinner-Tech-T527M00X0DCH_C28310420.pdf"
 			(at 486.41 130.81 0)
 			(effects
 				(font

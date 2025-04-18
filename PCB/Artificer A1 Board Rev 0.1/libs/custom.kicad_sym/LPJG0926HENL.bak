@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "local_footprints:LINK-PP_LPJG0926HENL"
+		(property "Footprint" "custom footprints:LINK-PP_LPJG0926HENL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "part datasheets/TRJG0926HENL-merged.pdf"
+		(property "Datasheet" "libs/_datasheets/TRJG0926HENL-merged.pdf"
 			(at 0 0 0)
 			(effects
 				(font
