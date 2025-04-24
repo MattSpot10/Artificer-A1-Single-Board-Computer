@@ -9,5 +9,810 @@
 		(rev "V0.1")
 		(company "Matthew Spotten")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "easyeda:0.5K-A-22PB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FPC"
+				(at 0 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.5K-A-22PB"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:FPC-SMD_22P-P1.00_0.5K-A-22PB"
+				(at 0 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2914146"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0.5K-A-22PB_0_1"
+				(rectangle
+					(start -2.54 34.29)
+					(end 2.54 -29.21)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 30.48)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 29.21 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 26.67 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 24.13 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 21.59 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 19.05 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 16.51 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -16.51 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -19.05 0)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -21.59 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -24.13 0)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 36.83 270)
+					(length 2.54)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -31.75 90)
+					(length 2.54)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:0.5K-A-22PB")
+		(at 158.75 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7838c5fb-3e38-428d-acb9-7bc0b4a13867")
+		(property "Reference" "FPC2"
+			(at 162.56 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5K-A-22PB"
+			(at 162.56 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:FPC-SMD_22P-P1.00_0.5K-A-22PB"
+			(at 158.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2914146"
+			(at 158.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "276a6d21-fe3b-4f3a-abc3-334b4612dc28")
+		)
+		(pin "17"
+			(uuid "885ac536-c4ec-48fb-8585-384de3097bac")
+		)
+		(pin "19"
+			(uuid "54e90b26-0bc2-44ec-9f27-6e7d0141445a")
+		)
+		(pin "3"
+			(uuid "037a65cd-be47-4035-a3fc-a6a64f4fb3e7")
+		)
+		(pin "5"
+			(uuid "94bd4a00-e37a-44a8-85ae-fa73dfde9830")
+		)
+		(pin "10"
+			(uuid "8a6093ee-2ee1-4ebb-98f8-686683efee71")
+		)
+		(pin "1"
+			(uuid "53e0da56-600f-4b56-9e58-dccb5c18dea1")
+		)
+		(pin "16"
+			(uuid "4e0f7c50-aedd-4a32-9001-80fe14e1ecc8")
+		)
+		(pin "8"
+			(uuid "dcb6a309-b406-432d-ab0e-6c3fa55bb602")
+		)
+		(pin "6"
+			(uuid "38e89f66-9561-41a9-af48-64da2f6028a1")
+		)
+		(pin "9"
+			(uuid "b3b09147-f5f5-4a05-b24d-d6d08f9cc832")
+		)
+		(pin "22"
+			(uuid "edfd6df8-8b4b-48d3-8231-5c2d06593ce6")
+		)
+		(pin "12"
+			(uuid "7390e5ab-1cd1-491b-accd-bd39c4329bc8")
+		)
+		(pin "2"
+			(uuid "44337b68-bf5d-4789-9034-3a93bb07484b")
+		)
+		(pin "4"
+			(uuid "5cfe82ff-a5b9-4db9-bcd2-68b9c1494cf0")
+		)
+		(pin "7"
+			(uuid "0c986c5e-9fe3-4451-a755-7cfceaf85d20")
+		)
+		(pin "13"
+			(uuid "e607235d-5376-465b-902f-2d56acd4a3e5")
+		)
+		(pin "11"
+			(uuid "dc269e4f-5bac-4c81-b540-08b05f7ea244")
+		)
+		(pin "15"
+			(uuid "5a50ad69-42bd-444d-8a4f-82475e56c517")
+		)
+		(pin "18"
+			(uuid "bcca7abb-b983-4886-b92f-f4ed30b03910")
+		)
+		(pin "20"
+			(uuid "df3f47e5-9c54-45f4-a3ac-0514f86ec12b")
+		)
+		(pin "21"
+			(uuid "13b9475d-8e3f-4e40-964a-181dcb28bddc")
+		)
+		(pin "24"
+			(uuid "bab4783e-c7ad-4f28-86ad-ca6f09141562")
+		)
+		(pin "23"
+			(uuid "23ac6c67-353b-466d-a282-dcabb749332c")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "FPC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:0.5K-A-22PB")
+		(at 232.41 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3fd062-c6bc-46a0-a9c7-1c9f46ec6f53")
+		(property "Reference" "FPC1"
+			(at 236.22 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5K-A-22PB"
+			(at 236.22 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda:FPC-SMD_22P-P1.00_0.5K-A-22PB"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2914146"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "753c106b-30c7-44fc-a5b0-cc6a90a70c2b")
+		)
+		(pin "6"
+			(uuid "1246d8a8-3fb7-4928-a0fe-39dab0bf925e")
+		)
+		(pin "1"
+			(uuid "785e902f-b3a6-480d-a9df-d55d103ca9fd")
+		)
+		(pin "5"
+			(uuid "49eb25ca-5aab-40ca-b753-d3b97b03b807")
+		)
+		(pin "12"
+			(uuid "4e7e2697-9809-4691-ba08-1d4129d4dbeb")
+		)
+		(pin "8"
+			(uuid "3624a2ee-307e-4366-b036-71b655757c7b")
+		)
+		(pin "4"
+			(uuid "9d79e95f-c08a-4d2f-8044-3cf844d873ad")
+		)
+		(pin "3"
+			(uuid "f176e0de-499e-4c66-a6c4-2ad9e2a735ea")
+		)
+		(pin "7"
+			(uuid "705a563e-c0e4-4714-8cb4-4d94a26c3dee")
+		)
+		(pin "9"
+			(uuid "86c7761a-b793-42cd-93de-e51d99521114")
+		)
+		(pin "10"
+			(uuid "5944b7dd-c116-4572-b8ad-4d9f6a6d965b")
+		)
+		(pin "11"
+			(uuid "ab6ab7a9-03d8-47a3-b8cc-2bf998df34c5")
+		)
+		(pin "22"
+			(uuid "ca3ea819-86f1-4efd-be6f-9a3f33c9ed10")
+		)
+		(pin "24"
+			(uuid "f993d191-ba10-4f32-8671-00ff7c09914f")
+		)
+		(pin "19"
+			(uuid "1dacc75c-7652-4ac7-9046-eb6f8d33a77d")
+		)
+		(pin "14"
+			(uuid "50eb330b-4270-48eb-bfed-67310b03d482")
+		)
+		(pin "15"
+			(uuid "0f48c05d-7382-464a-8481-30678bbe3d6f")
+		)
+		(pin "16"
+			(uuid "5bf2a8d6-ad4a-46b6-8a8a-624dfcd80281")
+		)
+		(pin "23"
+			(uuid "60b4eae2-8840-41b6-8e1d-14eb82eb1175")
+		)
+		(pin "17"
+			(uuid "adf90e9a-5b47-4502-90ae-e3df224a0e35")
+		)
+		(pin "18"
+			(uuid "0345a274-1a44-48b1-ba09-ccab71759a23")
+		)
+		(pin "21"
+			(uuid "59bb983e-09ad-49ce-a823-ed918c4b2cb6")
+		)
+		(pin "20"
+			(uuid "d1f28bf5-0fe1-416f-aac6-a030808f389d")
+		)
+		(pin "13"
+			(uuid "a7085f01-1886-41c2-bb70-346dca2ec2ae")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "FPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

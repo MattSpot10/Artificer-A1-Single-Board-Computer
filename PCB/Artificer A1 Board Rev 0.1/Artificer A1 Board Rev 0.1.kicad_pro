@@ -607,7 +607,7 @@
     ],
     [
       "3a972511-eab0-4845-81c2-3892196d9716",
-      "processor - T527"
+      "T527"
     ],
     [
       "63456063-10c2-4b87-b70a-2f2a2a003610",
@@ -631,7 +631,7 @@
     ],
     [
       "8dbcd277-0044-4a46-a7d8-a4fbff98b8e0",
-      "ethernet"
+      "ethernet0"
     ],
     [
       "e53cf37e-0283-4ef8-bdbb-96b13c13260b",
@@ -647,11 +647,15 @@
     ],
     [
       "355086f7-f3d8-4dbd-ac3d-6d1443c5403b",
-      "camera"
+      "mipi camera"
     ],
     [
       "bb518e39-315f-4fac-931f-ad14a14e5ca9",
       "wifi&bt"
+    ],
+    [
+      "dd1c6ce6-54ef-4268-b302-9272d7ff4581",
+      "ethernet1"
     ]
   ],
   "text_variables": {}

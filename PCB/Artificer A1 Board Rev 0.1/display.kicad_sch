@@ -1092,7 +1092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e18cb97-bb08-444d-b5c5-4cef6e6d0a30")
-		(property "Reference" "USB3"
+		(property "Reference" "DP1"
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -1219,7 +1219,7 @@
 		(instances
 			(project ""
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/0eff4a68-7f18-47e2-a88b-bcc4ad7e7e86"
-					(reference "USB3")
+					(reference "DP1")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1227,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:HD-A-05H9191N")
-		(at 142.24 66.04 0)
+		(at 138.43 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1236,7 +1236,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3d1eb34-7bef-484c-ba2e-3aae2f4d9e9c")
 		(property "Reference" "HDMI1"
-			(at 140.97 25.4 0)
+			(at 137.16 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Value" "HD-A-05H9191N"
-			(at 140.97 27.94 0)
+			(at 137.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:HDMI-SMD_HD-A-05H9192N"
-			(at 142.24 101.6 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 66.04 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 66.04 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 			)
 		)
 		(property "LCSC Part" "C18213861"
-			(at 142.24 104.14 0)
+			(at 138.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
