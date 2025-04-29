@@ -5963,11 +5963,7 @@
 		)
 	)
 	(bus_alias "GMAC1"
-		(members "RGMII1-PHYRSTB" "RGMII1-MDC" "RGMII1-MDIO" "RGMII1-TXD3" "RGMII1-TXD2"
-			"RGMII1-TXD1" "RGMII1-TXD0" "RGMII1-TXCTL" "RGMII1-TXCK" "RGMII1-INTB"
-			"RGMII1-RXCK" "RGMII1-RXCTL" "RGMII1-RXD0" "RGMII1-RXD1" "RGMII1-RXD2"
-			"RGMII1-RXD3" "RGMII1-CLKIN"
-		)
+		(members "DP" "DM" "UART0_TX" "UART0_RX")
 	)
 	(text "RGMII Voltage Config (LED[0]: External, LED[1:2]: 3.3V)"
 		(exclude_from_sim no)

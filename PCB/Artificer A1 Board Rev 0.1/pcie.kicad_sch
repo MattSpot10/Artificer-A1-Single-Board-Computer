@@ -1377,10 +1377,7 @@
 		)
 	)
 	(bus_alias "PCIe"
-		(members "PCIE0-PERSTN" "PCIE0-WAKEN " "PCIE0-CLKREQN " "PCIE-REF-CLKP "
-			"PCIE-REF-CLKN " "PCIE-RX0-DP" "PCIE-RX0-DN" "PCIE-TX0-DP" "PCIE-TX0-DN"
-			"CARD-PRESENT" "SM-SCK" "SM-SDA"
-		)
+		(members "DP" "DM" "UART0_TX" "UART0_RX")
 	)
 	(text "There is no dedicated pin on the SoC \nto handle card present detection.\n(The card will pull this line low with a \n100ohm resistor) Connect this pin to a GPIO \npin on the SoC supporting inturrput capabilities.\n"
 		(exclude_from_sim no)
