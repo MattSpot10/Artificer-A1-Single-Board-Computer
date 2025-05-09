@@ -4,4 +4,5 @@
   (lib (name "AXP323")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/AXP323.kicad_sym")(options "")(descr ""))
   (lib (name "LPJG0926HENL")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/LPJG0926HENL.kicad_sym")(options "")(descr ""))
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda.kicad_sym")(options "")(descr ""))
+  (lib (name "Power")(type "KiCad")(uri "${KIPRJMOD}/libs/custom.kicad_sym/Power.kicad_sym")(options "")(descr ""))
 )

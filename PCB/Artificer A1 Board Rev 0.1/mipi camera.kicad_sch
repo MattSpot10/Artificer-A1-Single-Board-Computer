@@ -884,7 +884,7 @@
 			"POWER-EN-D" "LED-EN-D" "SCL-D" "SDA-D"
 		)
 	)
-	(text "2-2-2-2 MIPI CSI configuration\n\n4-4 MIPI CSI configuration is possible\nif you joined lanes from another connector\n"
+	(text "2-2-2-2 MIPI CSI configuration\n\n4-4 MIPI CSI configuration is possible\nif you joined lanes from another connector\nand dropped a clock pair"
 		(exclude_from_sim no)
 		(at 235.712 140.716 0)
 		(effects

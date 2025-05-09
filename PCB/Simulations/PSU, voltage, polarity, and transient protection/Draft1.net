@@ -1,0 +1,9 @@
+* C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Simulations\PSU, voltage, polarity, and transient protection\Draft1.asc
+V1 N003 0 5V
+C1 N002 0 100nF IC=0
+C2 N001 0 100nF IC=5
+R1 N002 N001 1000k
+C3 N002 0 200nF IC=0
+.tran 1
+.backanno
+.end

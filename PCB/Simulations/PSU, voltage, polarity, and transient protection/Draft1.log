@@ -1,0 +1,14 @@
+LTspice 24.1.1 for Windows
+Circuit: C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Simulations\PSU, voltage, polarity, and transient protection\Draft1.net
+Start Time: Mon May  5 17:26:53 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.053 seconds.
+
+Files loaded:
+C:\Users\matts\Documents\Custom SBC\Artificer A1\Artificer-A1-Single-Board-Computer\PCB\Simulations\PSU, voltage, polarity, and transient protection\Draft1.net
+
