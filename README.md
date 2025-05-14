@@ -18,12 +18,22 @@
 - 4xUSBA 2.0
 - 1xUSBC 2.0 DRD
 
-### **Progress (Since Jan 2025)**
+### **Progress/Plans (Since Jan 2025)**
 **V1 Schematic capture**
 - Done: Component choice, symbol, and footprint creation. Finished interconnects for Ethernet, USB, MIPI DSI & CSI, SDRAM, PCIe
-- Todo: Interconnects for power, audio, gpio, I2C interfaces, wifi&bt, SD card
+- Todo: Interconnects for power, audio, gpio, I2C interfaces, wifi&bt, SD card.
 ![Hierarchical schematic](https://github.com/MattSpot10/Artificer-A1-Single-Board-Computer/blob/main/_images/Hierarchical%20schematic.jpg)
 
 **PCB Compatabilites**
 
-The Allwinner T527 is a 0.5mm pitch BGA and thus need special care when designing a PCB. Many of the balls are upopulated which makes this easier.
+The Allwinner T527 is a 0.5mm pitch BGA requiring these compatabilities for maufacturing:
+- 3mil trace
+- 3mil spacing
+- 10.685mil pad
+- 6mil drill
+- 10.685mil pad - 6mil drill = 2.342mil anular ring
+- 6 - 8 layers (Stackup and material not determined)
+
+**Booting Linux**
+- Add Spi flash chip to schematic for holding U Boot.
+- Configure U Boot for loading the Linux kernel and the device tree blob.
