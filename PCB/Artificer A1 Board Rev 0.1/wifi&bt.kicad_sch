@@ -13065,7 +13065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "libs/_datasheets/AIC8800D80_DataSheet_v0.1.pdf"
+		(property "Datasheet" "libs/_datasheets/M8800DS2.pdf"
 			(at 146.05 104.14 0)
 			(effects
 				(font
