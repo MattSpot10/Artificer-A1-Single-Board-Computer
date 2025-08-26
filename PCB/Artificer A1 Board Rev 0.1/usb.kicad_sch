@@ -2122,7 +2122,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2143,7 +2143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2169,7 +2169,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2187,7 +2187,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2225,7 +2225,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2599,13 +2599,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "HS"
-		(members "RGMII0-PHYRSTB" "RGMII0-MDC" "RGMII0-MDIO" "RGMII0-TXD3" "RGMII0-TXD2"
-			"GMII0-TXD1" "RGMII0-TXD0" "RGMII0-TXCTL" "RGMII0-TXCK" "RGMII0-INTB"
-			"RGMII0-RXCK" "RGMII0-RXCTL" "RGMII0-RXD0" "RGMII0-RXD1" "RGMII0-RXD2"
-			"RGMII0-RXD3"
-		)
-	)
 	(text "PSELF is pulled high internally to\ntell the hub controller that it is\nself powered.\n"
 		(exclude_from_sim no)
 		(at 213.106 74.676 0)
@@ -2683,6 +2676,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04c5ffea-e189-493c-9813-5e8d15f60c35")
+	)
+	(junction
+		(at 267.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07c5f6b7-0c81-4e27-9385-502bc38fc879")
 	)
 	(junction
 		(at 121.92 73.66)
@@ -2863,12 +2862,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abe3527e-2b65-4400-9c77-f4f5c14eafd4")
-	)
-	(junction
-		(at 267.97 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad36e295-cf2e-478f-a202-a65261f39bf3")
 	)
 	(junction
 		(at 33.02 58.42)
@@ -8154,73 +8147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 267.97 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d265d928-4a15-474b-af6d-d7bd9c5ab2ab")
-		(property "Reference" "#PWR013"
-			(at 264.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 271.78 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e87979-85f0-4ee7-8782-11bbbde5d01b")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 137.16 41.91 0)
 		(unit 1)
@@ -8619,6 +8545,73 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 267.97 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec3c1c89-cc4d-45a7-8575-e52668c60967")
+		(property "Reference" "#PWR0201"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 271.78 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87feb7da-5c15-440d-87bf-28baa809a499")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/e53cf37e-0283-4ef8-bdbb-96b13c13260b"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)

@@ -156,7 +156,7 @@
 			(pin input line
 				(at -24.13 13.97 0)
 				(length 2.54)
-				(name "HOST_WAKE_B"
+				(name "HOST_WAKE_BT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			(pin output line
 				(at -24.13 11.43 0)
 				(length 2.54)
-				(name "B_WAKE_HOST"
+				(name "BT_WAKE_HOST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -639,10 +639,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin unspecified line
 				(at 24.13 1.27 180)
 				(length 2.54)
-				(name "GND"
+				(name "PWR_BT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -657,10 +657,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at 24.13 -1.27 180)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -675,10 +675,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 24.13 -3.81 180)
 				(length 2.54)
-				(name "PWR_B"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)

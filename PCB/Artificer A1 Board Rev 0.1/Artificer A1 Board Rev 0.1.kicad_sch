@@ -108,6 +108,16 @@
 	)
 	(bus
 		(pts
+			(xy 148.59 68.58) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f454af0-6538-45e3-90af-279b34d6313f")
+	)
+	(bus
+		(pts
 			(xy 124.46 83.82) (xy 124.46 81.28)
 		)
 		(stroke
@@ -125,6 +135,16 @@
 			(type default)
 		)
 		(uuid "1e75cb3a-08ba-4102-b05d-8c24b0c41ce0")
+	)
+	(bus
+		(pts
+			(xy 83.82 125.73) (xy 83.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233f8b11-0a58-4305-bc1b-a9d8f23d7c6f")
 	)
 	(bus
 		(pts
@@ -268,6 +288,16 @@
 	)
 	(bus
 		(pts
+			(xy 88.9 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aa9c18-2a9c-40ac-9d34-8679b33ded3b")
+	)
+	(bus
+		(pts
 			(xy 149.86 82.55) (xy 149.86 91.44)
 		)
 		(stroke
@@ -285,6 +315,16 @@
 			(type default)
 		)
 		(uuid "b5145e4d-1b05-4ad2-91ac-257b8e342bb4")
+	)
+	(bus
+		(pts
+			(xy 148.59 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b900c85d-aac4-4b03-a5cb-48797d1f53f5")
 	)
 	(bus
 		(pts
@@ -315,6 +355,26 @@
 			(type default)
 		)
 		(uuid "bedab742-2b62-45b1-b658-da74c0012aa4")
+	)
+	(bus
+		(pts
+			(xy 86.36 113.03) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b5c61a-4baa-4c4c-85c7-08f37502e1d2")
+	)
+	(bus
+		(pts
+			(xy 88.9 106.68) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c688e237-d05d-45ac-b00e-1b22ed646a5a")
 	)
 	(bus
 		(pts
@@ -355,6 +415,16 @@
 			(type default)
 		)
 		(uuid "d8bcb56b-dd7b-463c-8415-b5c285243c55")
+	)
+	(bus
+		(pts
+			(xy 154.94 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93d01f0-e45b-4cb4-9817-48aa381361c6")
 	)
 	(bus
 		(pts
@@ -454,7 +524,7 @@
 		)
 		(uuid "1cc32e34-5a5e-4498-bd3d-bbd300c81be3")
 		(property "Sheetname" "audio"
-			(at 160.02 66.548 0)
+			(at 159.766 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,6 +540,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{AUDIO}" bidirectional
+			(at 154.94 68.58 180)
+			(uuid "474aa994-7f4a-42a4-a75f-666ee4541566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -658,16 +738,6 @@
 				(justify right)
 			)
 		)
-		(pin "{PCIe}" bidirectional
-			(at 107.95 96.52 0)
-			(uuid "3f7424ca-79a4-43ae-9095-43bb5c690fa5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{USB1}" bidirectional
 			(at 91.44 80.01 90)
 			(uuid "3c1cec62-f684-4600-b75c-fca5be8ad038")
@@ -761,6 +831,46 @@
 		(pin "{DSI1}" bidirectional
 			(at 107.95 86.36 0)
 			(uuid "40a70d59-cc66-444d-be8c-eb9d49e18b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{AUDIO}" bidirectional
+			(at 107.95 88.9 0)
+			(uuid "2bb687ca-1511-451d-804b-0654347bfee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SDC0}" bidirectional
+			(at 88.9 106.68 270)
+			(uuid "c9c73c7a-86d8-417e-b1df-2da2ff24cda1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{WL-BT}" bidirectional
+			(at 86.36 106.68 270)
+			(uuid "ab9c8cce-ed03-4f3e-bfb8-7a06c6c3e986")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 107.95 96.52 0)
+			(uuid "5c96e915-32a7-4eef-b651-419b1d7db071")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +996,7 @@
 		)
 		(uuid "9ab7f5fa-ffdb-4acb-910a-53000636bccf")
 		(property "Sheetname" "sd card"
-			(at 76.454 134.62 0)
+			(at 74.168 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,6 +1012,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{SDC0}" bidirectional
+			(at 83.82 128.27 90)
+			(uuid "58d9bce8-3216-4f39-b230-11a155b9cd66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -956,7 +1076,7 @@
 	)
 	(sheet
 		(at 74.93 113.03)
-		(size 12.7 8.89)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -970,7 +1090,7 @@
 		)
 		(uuid "bb518e39-315f-4fac-931f-ad14a14e5ca9")
 		(property "Sheetname" "wifi&bt"
-			(at 77.47 117.856 0)
+			(at 75.184 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,6 +1106,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{WL-BT}" bidirectional
+			(at 86.36 113.03 90)
+			(uuid "4cc66e45-2125-4b47-9cb6-a2ac0fd6bafd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1043,7 +1173,7 @@
 		(instances
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389"
-					(page "15")
+					(page "10")
 				)
 			)
 		)
@@ -1105,7 +1235,7 @@
 		(instances
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389"
-					(page "10")
+					(page "15")
 				)
 			)
 		)
@@ -1206,9 +1336,9 @@
 				(hide yes)
 			)
 		)
-		(pin "{PCIe}" bidirectional
+		(pin "{PCIE}" bidirectional
 			(at 138.43 101.6 180)
-			(uuid "cd3c7bc6-6c29-4362-8b9e-a380383adf48")
+			(uuid "b470ee9c-10af-4199-9d9b-ebb753137b17")
 			(effects
 				(font
 					(size 1.27 1.27)

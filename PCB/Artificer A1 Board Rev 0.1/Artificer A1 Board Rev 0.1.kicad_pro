@@ -634,8 +634,8 @@
       "ethernet0"
     ],
     [
-      "e53cf37e-0283-4ef8-bdbb-96b13c13260b",
-      "usb"
+      "dd1c6ce6-54ef-4268-b302-9272d7ff4581",
+      "ethernet1"
     ],
     [
       "fc53f3ee-65f7-486b-9f15-3d3dc12df657",
@@ -654,8 +654,8 @@
       "wifi&bt"
     ],
     [
-      "dd1c6ce6-54ef-4268-b302-9272d7ff4581",
-      "ethernet1"
+      "e53cf37e-0283-4ef8-bdbb-96b13c13260b",
+      "usb"
     ]
   ],
   "text_variables": {}

@@ -1149,7 +1149,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1170,7 +1170,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1196,7 +1196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1214,7 +1214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1252,7 +1252,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1376,8 +1376,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "PCIe"
-		(members "DP" "DM" "UART0_TX" "UART0_RX")
+	(bus_alias "PCIE"
+		(members "PCIE-TX0-DN" "PCIE-TX0-DP" "PCIE-REF-CLKN" "PCIE-REF-CLKP" "PCIE0-PERSTN "
+			"PCIE-CARD-PRESENT" "PCIE-SM-SCK" "PCIE-SM-SDA" "PCIE0-WAKEN" "PCIE-RX0-DP"
+			"PCIE-RX0-DN"
+		)
 	)
 	(text "There is no dedicated pin on the SoC \nto handle card present detection.\n(The card will pull this line low with a \n100ohm resistor) Connect this pin to a GPIO \npin on the SoC supporting inturrput capabilities.\n"
 		(exclude_from_sim no)
@@ -1552,15 +1555,6 @@
 		(uuid "f4dee725-547f-43ba-96cd-8d20fd4b82c2")
 	)
 	(bus_entry
-		(at 69.85 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1134e3d8-ce1f-4416-9cb3-3b0f57b1244a")
-	)
-	(bus_entry
 		(at 69.85 111.76)
 		(size 2.54 2.54)
 		(stroke
@@ -1579,22 +1573,31 @@
 		(uuid "2c2a48f2-db28-4c59-badb-a6b9e6982394")
 	)
 	(bus_entry
-		(at 222.25 83.82)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b636d7-7899-4cbb-bdba-918a3811a33b")
-	)
-	(bus_entry
 		(at 222.25 81.28)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4813ffc8-5120-4062-aa70-dc0e94de8866")
+		(uuid "34af2d75-7755-4d60-85a7-9a7b61218463")
+	)
+	(bus_entry
+		(at 222.25 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55572e96-847e-4384-a0de-838086f07408")
+	)
+	(bus_entry
+		(at 69.85 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e655eb0-c7e9-48fd-9094-067beaec1bff")
 	)
 	(bus_entry
 		(at 222.25 111.76)
@@ -1660,16 +1663,6 @@
 		)
 		(uuid "044d0a1a-30ee-42e8-92b8-de5d3e82a7e4")
 	)
-	(bus
-		(pts
-			(xy 69.85 73.66) (xy 69.85 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ec6dfc-fd31-411a-a6cd-662819fe9634")
-	)
 	(wire
 		(pts
 			(xy 171.45 86.36) (xy 166.37 86.36)
@@ -1720,6 +1713,16 @@
 		)
 		(uuid "18c5e438-3195-4369-8a10-ce4b280d676f")
 	)
+	(bus
+		(pts
+			(xy 222.25 83.82) (xy 222.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19afb187-d51c-4e59-a2c6-7ee6122dcd90")
+	)
 	(wire
 		(pts
 			(xy 72.39 111.76) (xy 88.9 111.76)
@@ -1760,6 +1763,16 @@
 		)
 		(uuid "31c4efe0-fd94-4eba-8a4f-b8b95546dd21")
 	)
+	(bus
+		(pts
+			(xy 222.25 81.28) (xy 222.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b1a1cc-13c0-4e8a-ba31-9f4abf8ca4ec")
+	)
 	(wire
 		(pts
 			(xy 111.76 101.6) (xy 125.73 101.6)
@@ -1790,16 +1803,6 @@
 		)
 		(uuid "3be26272-0a66-4399-a52d-b48a35191b46")
 	)
-	(bus
-		(pts
-			(xy 222.25 49.53) (xy 222.25 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c49a277-1ba1-4353-916e-58afcc449714")
-	)
 	(wire
 		(pts
 			(xy 106.68 78.74) (xy 125.73 78.74)
@@ -1822,7 +1825,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 83.82) (xy 222.25 99.06)
+			(xy 222.25 49.53) (xy 222.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2090,6 +2093,16 @@
 		)
 		(uuid "bbfde433-ffcc-4b51-a1c0-b15cdfb364a9")
 	)
+	(bus
+		(pts
+			(xy 69.85 73.66) (xy 69.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd68456d-547d-4c09-bec6-dde172e91a27")
+	)
 	(wire
 		(pts
 			(xy 166.37 114.3) (xy 219.71 114.3)
@@ -2129,16 +2142,6 @@
 			(type default)
 		)
 		(uuid "c24f0ccb-d21c-447f-b9a7-f0e3aee8f586")
-	)
-	(bus
-		(pts
-			(xy 222.25 81.28) (xy 222.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31ea2d5-f928-45d8-b06a-d012af77ff0b")
 	)
 	(wire
 		(pts
@@ -2260,15 +2263,15 @@
 		)
 		(uuid "07424174-0065-49de-9be4-73d186f6d952")
 	)
-	(label "SM-SDA"
-		(at 210.82 86.36 0)
+	(label "PCIE-SM-SCK"
+		(at 219.71 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0b08dd72-6dbc-4f33-80a8-397bfdbb9ce0")
+		(uuid "1c1255d4-7946-4503-84c4-2678301732b5")
 	)
 	(label "PCIE-RX0-DN"
 		(at 205.74 116.84 0)
@@ -2280,15 +2283,15 @@
 		)
 		(uuid "3dddb57c-39ff-416c-b2c3-560283acd734")
 	)
-	(label "SM-SCK"
-		(at 210.82 83.82 0)
+	(label "PCIE-SM-SDA"
+		(at 219.71 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4ce3e034-0b61-4e3d-87c9-f5cb91b52bb3")
+		(uuid "58d84d3a-8dbd-4813-b244-15d4794af7f4")
 	)
 	(label "PCIE-TX0-DP"
 		(at 72.39 119.38 0)
@@ -2310,16 +2313,6 @@
 		)
 		(uuid "a3cf621d-73f1-41f3-a608-c52039a59c0d")
 	)
-	(label "CARD-PRESENT"
-		(at 72.39 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6aec97a-9b81-4ee8-9eab-b144d0fc929d")
-	)
 	(label "PCIE0-PERSTN"
 		(at 72.39 111.76 0)
 		(effects
@@ -2339,6 +2332,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3548d26-4584-4efb-87b9-313ca67f3057")
+	)
+	(label "PCIE-CARD-PRESENT"
+		(at 72.39 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb08b88b-d9e7-4d60-88e8-2e34376d732f")
 	)
 	(label "PCIE-RX0-DP"
 		(at 205.74 114.3 0)
@@ -2360,7 +2363,7 @@
 		)
 		(uuid "f9d6cb45-a1a4-45eb-8c3f-a0d38550b873")
 	)
-	(hierarchical_label "{PCIe}"
+	(hierarchical_label "{PCIE}"
 		(shape bidirectional)
 		(at 222.25 135.89 270)
 		(effects
@@ -2509,72 +2512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 88.9 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a8f54ee-0618-4787-b9ad-1ca5b4d04fb9")
-		(property "Reference" "#PWR032"
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d30b194-b12c-4dd3-a875-f3fff05ee247")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 166.37 91.44 90)
 		(unit 1)
@@ -2712,72 +2649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 111.76 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ab8b927-1655-4c46-9089-a0f0f1139a6f")
-		(property "Reference" "#PWR029"
-			(at 111.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15489aa7-760a-441d-800a-51471771fa84")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 100.33 0)
 		(unit 1)
@@ -2841,6 +2712,72 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584251e3-117d-485c-9ea5-6bcb7fbcf85b")
+		(property "Reference" "#PWR032"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3c2d323-9dc6-42c0-82dc-4e34d4fe87bb")
+		)
+		(instances
+			(project ""
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3115,6 +3052,73 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb07c52-921f-47d0-b8c7-13e8a5a06294")
+		(property "Reference" "#PWR0200"
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 208.28 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "062a5f68-c197-4df8-9f88-f2a8aef16bcb")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -3868,6 +3872,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 111.76 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71f3e2f-640c-41c3-a329-2a99df9dca2f")
+		(property "Reference" "#PWR0199"
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4195b823-4ee7-45f4-84a4-69046285ab68")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 83.82 90)
 		(unit 1)
@@ -4381,73 +4451,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 204.47 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7ca7c0b-437c-43e1-9a91-ccf6e507f623")
-		(property "Reference" "#PWR026"
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 208.28 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8ff0703-fdaa-46f6-a9d2-bae2d8187bf1")
-		)
-		(instances
-			(project ""
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/fc53f3ee-65f7-486b-9f15-3d3dc12df657"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
