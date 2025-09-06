@@ -13680,7 +13680,10 @@
 		)
 	)
 	(bus_alias "WL-BT"
-		(members "DP" "DM" "UART0_TX" "UART0_RX")
+		(members "AP-WAKE-BT" "BT-WAKE-AP" "PWR-EN" "WL-WAKE-AP" "SDC1-D2" "SDC1-D3"
+			"SDC1-CMD" "SDC1-CLK" "SDC1-D0" "SDC1-D1" "BT-UART-RTS" "BT-UART-TX" "BT-UART-RX"
+			"BT-UART-CTS" "BT-PCM-SYNC" "BT-PCM-DOUT" "BT-PCM-CLK" "BT-PCM-DIN" "AP-WAKE-WL"
+		)
 	)
 	(text "I2S1-LRCK\nI2S1-DOUT0\nI2S1-BCLK\nI2S1-DIN0"
 		(exclude_from_sim no)

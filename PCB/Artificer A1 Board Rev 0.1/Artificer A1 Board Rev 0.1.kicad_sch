@@ -11,9 +11,6 @@
 		(company "Matthew Spotten")
 	)
 	(lib_symbols)
-	(bus_alias "USB_DRD"
-		(members "DP" "DM" "UART0_TX" "UART0_RX")
-	)
 	(circle
 		(center 116 75.5701)
 		(radius 3)

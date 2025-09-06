@@ -57,8 +57,8 @@ def e48_values(decade_low, decade_high):
     
     return values
 
-Vin = 5
-Vout = 1.2222
+Vin = 3.3
+Vout = 1.222
 V_error = .01
 
 R1_values = e24_values(0, 1);
