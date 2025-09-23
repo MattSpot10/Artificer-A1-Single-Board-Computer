@@ -665,7 +665,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 15.24 0)
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -673,7 +673,7 @@
 				)
 			)
 			(property "Value" "HD3SS3202IRSVR"
-				(at 0 -12.7 0)
+				(at 0.254 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -681,7 +681,7 @@
 				)
 			)
 			(property "Footprint" "easyeda:UQFN-16_L2.6-W1.8-P0.40-BL"
-				(at 0 -15.24 0)
+				(at -0.254 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -689,8 +689,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2150836.pdf"
+				(at 0.508 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -708,7 +708,7 @@
 				)
 			)
 			(property "LCSC Part" "C2150836"
-				(at 0 -17.78 0)
+				(at -0.254 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -718,8 +718,8 @@
 			)
 			(symbol "HD3SS3202IRSVR_0_1"
 				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -10.16)
+					(start -7.62 13.97)
+					(end 7.62 -13.97)
 					(stroke
 						(width 0)
 						(type default)
@@ -729,7 +729,7 @@
 					)
 				)
 				(circle
-					(center -6.35 11.43)
+					(center -6.35 12.7)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -740,169 +740,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "A0n"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A1p"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "A1n"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "C1n"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "C1p"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "A0p"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 7.62 180)
+					(at -10.16 11.43 0)
 					(length 2.54)
 					(name "OEn"
 						(effects
@@ -920,7 +758,133 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 5.08 180)
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "A0p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "A0n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "A1p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "A1n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 11.43 180)
 					(length 2.54)
 					(name "B0p"
 						(effects
@@ -938,7 +902,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 2.54 180)
+					(at 10.16 8.89 180)
 					(length 2.54)
 					(name "B0n"
 						(effects
@@ -956,7 +920,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 0 180)
+					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "B1p"
 						(effects
@@ -974,7 +938,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -2.54 180)
+					(at 10.16 3.81 180)
 					(length 2.54)
 					(name "B1n"
 						(effects
@@ -992,7 +956,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -5.08 180)
+					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "C0p"
 						(effects
@@ -1010,7 +974,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -7.62 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "C0n"
 						(effects
@@ -1020,6 +984,42 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "C1p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "C1n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:HC-USB3.0-L168-WP")
-		(at 64.77 181.61 0)
+		(at 138.43 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3426,7 +3426,7 @@
 		(fields_autoplaced yes)
 		(uuid "416f97e8-db13-456d-9018-7a3caf99a521")
 		(property "Reference" "U17"
-			(at 63.5 163.83 0)
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Value" "HC-USB3.0-L168-WP"
-			(at 63.5 166.37 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3442,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:USB-TH_USB3.0-A"
-			(at 64.77 199.39 0)
+			(at 138.43 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 181.61 0)
+			(at 138.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 181.61 0)
+			(at 138.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3469,7 @@
 			)
 		)
 		(property "LCSC Part" "C7501850"
-			(at 64.77 201.93 0)
+			(at 138.43 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3866,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:HD3SS3202IRSVR")
-		(at 97.79 180.34 0)
+		(at 66.04 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3875,7 +3875,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a80b61c-5061-47aa-957a-7a6685b62124")
 		(property "Reference" "U12"
-			(at 97.79 162.56 0)
+			(at 66.04 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Value" "HD3SS3202IRSVR"
-			(at 97.79 165.1 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3891,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:UQFN-16_L2.6-W1.8-P0.40-BL"
-			(at 97.79 195.58 0)
+			(at 66.04 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,8 +3899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.79 180.34 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2150836.pdf"
+			(at 66.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 180.34 0)
+			(at 66.04 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "LCSC Part" "C2150836"
-			(at 97.79 198.12 0)
+			(at 66.04 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
