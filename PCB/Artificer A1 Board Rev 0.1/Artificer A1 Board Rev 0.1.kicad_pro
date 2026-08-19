@@ -132,7 +132,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -210,17 +210,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "V0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -411,11 +422,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -438,8 +452,10 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -469,13 +485,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -497,7 +514,11 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "C:\\Users\\matts\\Desktop\\SBC.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -547,14 +568,523 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Average Rectified Current (Io)",
+          "name": "Average Rectified Current (Io)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Drain Current (Id)",
+          "name": "Continuous Drain Current (Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Diode Configuration",
+          "name": "Diode Configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source Voltage (Vdss)",
+          "name": "Drain Source Voltage (Vdss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage (Vf@If)",
+          "name": "Forward Voltage (Vf@If)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance (Ciss@Vds)",
+          "name": "Input Capacitance (Ciss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature Range",
+          "name": "Operating Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Overload Voltage (Max)",
+          "name": "Overload Voltage (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Peak forward surge current",
+          "name": "Peak forward surge current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Dissipation (Pd)",
+          "name": "Power Dissipation (Pd)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power(Watts)",
+          "name": "Power(Watts)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Leakage Current (Ir)",
+          "name": "Reverse Leakage Current (Ir)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage (Vr)",
+          "name": "Reverse Voltage (Vr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Total Gate Charge (Qg@Vgs)",
+          "name": "Total Gate Charge (Qg@Vgs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rated",
+          "name": "Voltage Rated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
+    },
+    "bus_aliases": {
+      "AUDIO": [
+        "MICIN3N",
+        "MICIN3P",
+        "HBIAS",
+        "HPOUTFB",
+        "HPOUTL",
+        "HP-DET",
+        "HPOUTR",
+        "HS-MIC"
+      ],
+      "CSIA": [
+        "MCSIA-D0N",
+        "MCSIA-D0P",
+        "MCSIA-D1N",
+        "MCSIA-D1P",
+        "MCSIA-CKN",
+        "MCSIA-CKP",
+        "POWER-EN-A",
+        "LED-EN-A",
+        "SCL-A",
+        "SDA-A"
+      ],
+      "CSIB": [
+        "MCSIB-D0N",
+        "MCSIB-D0P",
+        "MCSIB-D1N",
+        "MCSIB-D1P",
+        "MCSIB-CKN",
+        "MCSIB-CKP",
+        "POWER-EN-B",
+        "LED-EN-B",
+        "SCL-B",
+        "SDA-B"
+      ],
+      "CSIC": [
+        "MCSIC-D0N",
+        "MCSIC-D0P",
+        "MCSIC-D1N",
+        "MCSIC-D1P",
+        "MCSIC-CKN",
+        "MCSIC-CKP",
+        "POWER-EN-C",
+        "LED-EN-C",
+        "SCL-C",
+        "SDA-C"
+      ],
+      "CSID": [
+        "MCSID-D0N",
+        "MCSID-D0P",
+        "MCSID-D1N",
+        "MCSID-D1P",
+        "MCSID-CKN",
+        "MCSID-CKP",
+        "POWER-EN-D",
+        "LED-EN-D",
+        "SCL-D",
+        "SDA-D"
+      ],
+      "DSI0": [
+        "DSI0-D0N",
+        "DSI0-D0P",
+        "DSI0-D1N",
+        "DSI0-D1P",
+        "DSI0-CKN",
+        "DSI0-CKP",
+        "DSI0-D2N",
+        "DSI0-D2P",
+        "DSI0-D3N",
+        "DSI0-D3P",
+        "DSI0-SCL",
+        "DSI0-SDA"
+      ],
+      "DSI1": [
+        "RGMII1-PHYRSTB",
+        "RGMII1-MDC",
+        "RGMII1-MDIO",
+        "RGMII1-TXD3",
+        "RGMII1-TXD2",
+        "RGMII1-TXD1",
+        "RGMII1-TXD0",
+        "RGMII1-TXCTL",
+        "RGMII1-TXCK",
+        "RGMII1-INTB",
+        "RGMII1-RXCK",
+        "RGMII1-RXCTL",
+        "RGMII1-RXD0",
+        "RGMII1-RXD1",
+        "RGMII1-RXD2",
+        "RGMII1-RXD3",
+        "RGMII1-CLKIN"
+      ],
+      "DispPrt": [
+        "EDP-TX0P",
+        "EDP-TX0N",
+        "EDP-TX1P",
+        "EDP-TX1N",
+        "EDP-TX2P",
+        "EDP-TX2N",
+        "EDP-TX3P",
+        "EDP-TX3N",
+        "EDP-AUXP",
+        "EDP-AUXN",
+        "EDP-HPD"
+      ],
+      "GMAC": [
+        "RGMII-PHYRSTB",
+        "RGMII-MDC",
+        "RGMII-MDIO",
+        "RGMII-TXD3",
+        "RGMII-TXD2",
+        "RGMII-TXD1",
+        "RGMII-TXD0",
+        "RGMII-TXCTL",
+        "RGMII-TXCK",
+        "RGMII-INTB",
+        "RGMII-RXCK",
+        "RGMII-RXCTL",
+        "RGMII-RXD0",
+        "RGMII-RXD1",
+        "RGMII-RXD2",
+        "RGMII-RXD3",
+        "RGMII-CLKIN"
+      ],
+      "GMAC1": [
+        "RGMII1-PHYRSTB",
+        "RGMII1-MDC",
+        "RGMII1-MDIO",
+        "RGMII1-TXD3",
+        "RGMII1-TXD2",
+        "RGMII1-TXD1",
+        "RGMII1-TXD0",
+        "RGMII1-TXCTL",
+        "RGMII1-TXCK",
+        "RGMII1-INTB",
+        "RGMII1-RXCK",
+        "RGMII1-RXCTL",
+        "RGMII1-RXD0",
+        "RGMII1-RXD1",
+        "RGMII1-RXD2",
+        "RGMII1-RXD3",
+        "RGMII1-CLKIN"
+      ],
+      "HDMI": [
+        "HTX2P",
+        "HTX2N",
+        "HTX1P",
+        "HTX1N",
+        "HTX0P",
+        "HTX0N",
+        "HTXCP",
+        "HTXCN",
+        "HCEC",
+        "HSCL",
+        "HSDA",
+        "HHPD"
+      ],
+      "PCIE": [
+        "PCIE-TX0-DN",
+        "PCIE-TX0-DP",
+        "PCIE-REF-CLKN",
+        "PCIE-REF-CLKP",
+        "PCIE0-PERSTN",
+        "PCIE-CARD-PRESENT",
+        "PCIE-SM-SCK",
+        "PCIE-SM-SDA",
+        "PCIE0-WAKEN",
+        "PCIE-RX0-DP",
+        "PCIE-RX0-DN",
+        "PCIE0-CLKREQN",
+        "USB2-DP",
+        "USB2-DM",
+        "PCIE-SEL"
+      ],
+      "SDC0": [
+        "SDC0-D2",
+        "SDC0-D3",
+        "SDC0-CMD",
+        "SDC0-CLK",
+        "SDC0-D0",
+        "SDC0-D1",
+        "SDC0-DET"
+      ],
+      "USB1": [
+        "USB1-DP",
+        "USB1-DM"
+      ],
+      "USB_DRD": [
+        "DP",
+        "DM",
+        "UART0_TX",
+        "UART0_RX"
+      ],
+      "WL-BT": [
+        "AP-WAKE-BT",
+        "BT-WAKE-AP",
+        "PWR-EN",
+        "WL-WAKE-AP",
+        "SDC1-D2",
+        "SDC1-D3",
+        "SDC1-CMD",
+        "SDC1-CLK",
+        "SDC1-D0",
+        "SDC1-D1",
+        "BT-UART-RTS",
+        "BT-UART-TX",
+        "BT-UART-RX",
+        "BT-UART-CTS",
+        "BT-PCM-SYNC",
+        "BT-PCM-DOUT",
+        "BT-PCM-CLK",
+        "BT-PCM-DIN",
+        "AP-WAKE-WL"
+      ]
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -563,6 +1093,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -586,6 +1117,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -594,12 +1126,29 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "Artificer A1 Board Rev 0.1.kicad_sch",
+        "name": "Artificer A1 Board Rev 0.1",
+        "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
+      }
+    ],
+    "used_designators": "C1-206,R1-106,D1-12,#PWR1-458,NT1-48,Card1,PS1,CN1,DP1,FPC1-6,HDMI1,J1-2,JP1,L1-14,Q1-4,RJ1-2,TP1-6,U1-23,USB1-2,X1-3",
+    "variants": []
   },
   "sheets": [
     [
       "7c37bdb5-94b0-4567-b5ec-a879db855389",
-      "Root"
+      "Artificer A1 Board Rev 0.1"
+    ],
+    [
+      "c4211ff5-fd83-42c8-a691-42056585a0db",
+      "power input"
+    ],
+    [
+      "5085de0c-7619-4bc0-8748-b4b356a375dc",
+      "T527 power"
     ],
     [
       "ae3e07ef-f034-4788-a69a-5dbad0c7ebc1",
@@ -634,12 +1183,12 @@
       "ethernet0"
     ],
     [
-      "dd1c6ce6-54ef-4268-b302-9272d7ff4581",
-      "ethernet1"
+      "acce53b9-49b8-45d6-9f6f-dde333340d83",
+      "ethernet 1"
     ],
     [
       "fc53f3ee-65f7-486b-9f15-3d3dc12df657",
-      "pcie"
+      "pcie&usb3"
     ],
     [
       "f6f33ebb-5c0b-4a90-8c47-ad37181a309f",
@@ -658,5 +1207,11 @@
       "usb"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }

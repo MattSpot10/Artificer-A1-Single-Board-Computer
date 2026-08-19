@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resistor Divider Calculator</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+.container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background: #2b2b2b;
+    color: white;
+    width: 250px;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover {
+    background: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+}
+
+th {
+    background: #2a2a2a;
+}
+
+.result-count {
+    margin-top: 15px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Resistor Divider Calculator</h1>
+
+    <label>Input Voltage:</label>
+    <input id="vin" type="number" value="5" step="0.01">
+
+    <label>Target Voltage:</label>
+    <input id="vout" type="number" value="3.3" step="0.01">
+
+    <label>Voltage Tolerance:</label>
+    <input id="tol" type="number" value="0.01" step="0.001">
+
+    <label>Resistor Series:</label>
+    <select id="series">
+        <option>E12</option>
+        <option>E24</option>
+        <option selected>E48</option>
+    </select>
+
+    <label>Maximum Individual Resistor Value:</label>
+    <select id="decade">
+        <option value="3">10kΩ</option>
+        <option value="4">100kΩ</option>
+        <option value="5">1MΩ</option>
+        <option value="6" selected>10MΩ</option>
+        <option value="7">100MΩ</option>
+    </select>
+
+    <label>Minimum Total Divider Resistance (R1 + R2):</label>
+    <input id="minTotal" type="number" value="0" step="1000">
+
+    <label>Maximum Total Divider Resistance (R1 + R2):</label>
+    <input id="maxTotal" type="number" value="1000000000" step="1000">
+
+    <button onclick="calculate()">Find Dividers</button>
+
+    <div class="result-count" id="count"></div>
+
+    <table id="results">
+        <thead>
+            <tr>
+                <th>R1</th>
+                <th>R2</th>
+                <th>Total Resistance</th>
+                <th>Actual Vout</th>
+                <th>Error</th>
+                <th>Divider Current</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+
+const E12 = [
+1.0,1.2,1.5,1.8,2.2,2.7,3.3,3.9,4.7,5.6,6.8,8.2
+];
+
+const E24 = [
+1.0,1.1,1.2,1.3,1.5,1.6,1.8,2.0,2.2,2.4,2.7,
+3.0,3.3,3.6,3.9,4.3,4.7,5.1,5.6,6.2,6.8,7.5,8.2,9.1
+];
+
+const E48 = [
+1.00,1.05,1.10,1.15,1.21,1.27,1.33,1.40,1.47,1.54,
+1.62,1.69,1.78,1.87,1.96,2.05,2.15,2.26,2.37,2.49,
+2.61,2.74,2.87,3.01,3.16,3.32,3.48,3.65,3.83,4.02,
+4.22,4.42,4.64,4.87,5.11,5.36,5.62,5.90,6.19,6.49,
+6.81,7.15,7.50,7.87,8.25,8.66,9.09,9.53
+];
+
+function generateValues(series, maxDecade)
+{
+    let values = [];
+
+    for(let decade = 0; decade <= maxDecade; decade++)
+    {
+        for(let base of series)
+        {
+            values.push(base * Math.pow(10, decade));
+        }
+    }
+
+    return values;
+}
+
+function formatResistance(r)
+{
+    if(r >= 1e6)
+        return (r / 1e6).toFixed(2).replace(/\.?0+$/,'') + " MΩ";
+
+    if(r >= 1e3)
+        return (r / 1e3).toFixed(2).replace(/\.?0+$/,'') + " kΩ";
+
+    return r.toFixed(2).replace(/\.?0+$/,'') + " Ω";
+}
+
+function formatCurrent(i)
+{
+    if(i >= 1)
+        return i.toFixed(3).replace(/\.?0+$/,'') + " A";
+
+    if(i >= 1e-3)
+        return (i * 1e3).toFixed(3).replace(/\.?0+$/,'') + " mA";
+
+    if(i >= 1e-6)
+        return (i * 1e6).toFixed(3).replace(/\.?0+$/,'') + " µA";
+
+    return (i * 1e9).toFixed(3).replace(/\.?0+$/,'') + " nA";
+}
+
+function calculate()
+{
+    const Vin = parseFloat(document.getElementById("vin").value);
+    const target = parseFloat(document.getElementById("vout").value);
+    const tolerance = parseFloat(document.getElementById("tol").value);
+
+    const selectedSeries = document.getElementById("series").value;
+    const maxDecade = parseInt(document.getElementById("decade").value);
+
+    const minTotal = parseFloat(document.getElementById("minTotal").value);
+    const maxTotal = parseFloat(document.getElementById("maxTotal").value);
+
+    let series;
+
+    if(selectedSeries === "E12") series = E12;
+    if(selectedSeries === "E24") series = E24;
+    if(selectedSeries === "E48") series = E48;
+
+    const resistors = generateValues(series, maxDecade);
+
+    let matches = [];
+
+    for(let R1 of resistors)
+    {
+        for(let R2 of resistors)
+        {
+            const totalResistance = R1 + R2;
+
+            if(totalResistance < minTotal)
+                continue;
+
+            if(totalResistance > maxTotal)
+                continue;
+
+            const Vout = Vin * R2 / totalResistance;
+            const error = Math.abs(Vout - target);
+
+            if(error <= tolerance)
+            {
+                const current = Vin / totalResistance;
+
+                matches.push({
+                    R1,
+                    R2,
+                    totalResistance,
+                    Vout,
+                    error,
+                    current
+                });
+            }
+        }
+    }
+
+    matches.sort((a, b) => {
+        if(a.error !== b.error)
+            return a.error - b.error;
+
+        return a.current - b.current;
+    });
+
+    const tbody = document.querySelector("#results tbody");
+    tbody.innerHTML = "";
+
+    for(let result of matches.slice(0, 100))
+    {
+        tbody.innerHTML += `
+        <tr>
+            <td>${formatResistance(result.R1)}</td>
+            <td>${formatResistance(result.R2)}</td>
+            <td>${formatResistance(result.totalResistance)}</td>
+            <td>${result.Vout.toFixed(5)} V</td>
+            <td>${(result.error * 1000).toFixed(3)} mV</td>
+            <td>${formatCurrent(result.current)}</td>
+        </tr>`;
+    }
+
+    document.getElementById("count").innerText =
+        `${matches.length} matching combinations found (showing first ${Math.min(matches.length,100)})`;
+}
+
+calculate();
+
+</script>
+
+</body>
+</html>
