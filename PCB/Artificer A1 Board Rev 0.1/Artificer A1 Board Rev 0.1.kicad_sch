@@ -95,23 +95,13 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 67.31) (xy 109.22 74.93)
+			(xy 109.22 67.31) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "036039a6-5755-4891-a38c-8736e15d8d0f")
-	)
-	(bus
-		(pts
-			(xy 77.47 71.12) (xy 77.47 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b795a6-c9d6-486e-9b02-e6119b37990a")
 	)
 	(bus
 		(pts
@@ -135,7 +125,7 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 76.2) (xy 93.98 76.2)
+			(xy 111.76 77.47) (xy 93.98 77.47)
 		)
 		(stroke
 			(width 0)
@@ -145,17 +135,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 80.01) (xy 93.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef599cf-7992-4ac4-99c6-33dceae4ce6b")
-	)
-	(bus
-		(pts
-			(xy 90.17 71.12) (xy 90.17 74.93)
+			(xy 90.17 71.12) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -185,7 +165,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 74.93) (xy 82.55 80.01)
+			(xy 82.55 77.47) (xy 82.55 80.01)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +175,7 @@
 	)
 	(bus
 		(pts
-			(xy 111.76 67.31) (xy 111.76 76.2)
+			(xy 111.76 67.31) (xy 111.76 77.47)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +205,7 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 74.93) (xy 85.09 80.01)
+			(xy 85.09 77.47) (xy 85.09 80.01)
 		)
 		(stroke
 			(width 0)
@@ -395,7 +375,17 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 74.93) (xy 91.44 74.93)
+			(xy 77.47 71.12) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dc3ddf-ec71-4fdc-9766-b9fd1622e7b4")
+	)
+	(bus
+		(pts
+			(xy 109.22 76.2) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +405,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 74.93) (xy 77.47 74.93)
+			(xy 82.55 77.47) (xy 77.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +415,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 74.93) (xy 91.44 80.01)
+			(xy 91.44 76.2) (xy 91.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +425,7 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 74.93) (xy 90.17 74.93)
+			(xy 85.09 77.47) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +435,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 76.2) (xy 93.98 80.01)
+			(xy 93.98 77.47) (xy 93.98 80.01)
 		)
 		(stroke
 			(width 0)
@@ -454,17 +444,17 @@
 		(uuid "fc15ed81-8b6a-4398-8c43-a63ccc5711ae")
 	)
 	(label "ETH0{GMAC}"
-		(at 77.47 74.93 180)
+		(at 77.47 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "67d1bee1-a501-49c8-ba93-3fc3f64de6ec")
 	)
 	(label "ETH1{GMAC}"
-		(at 90.17 74.93 0)
+		(at 90.17 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -743,7 +733,7 @@
 		)
 		(uuid "3a972511-eab0-4845-81c2-3892196d9716")
 		(property "Sheetname" "T527"
-			(at 97.536 78.74 0)
+			(at 109.22 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1134,7 +1134,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "C1-206,R1-106,D1-12,#PWR1-458,NT1-48,Card1,PS1,CN1,DP1,FPC1-6,HDMI1,J1-2,JP1,L1-14,Q1-4,RJ1-2,TP1-6,U1-23,USB1-2,X1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

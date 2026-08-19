@@ -1,0 +1,9 @@
+# Ignore all zip files and archive backups
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# If you store timestamped or custom backup folders, you can ignore them like this:
+backups/
+*.bak
