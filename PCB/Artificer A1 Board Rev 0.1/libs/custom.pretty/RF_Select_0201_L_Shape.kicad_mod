@@ -1,0 +1,158 @@
+(footprint "RF_Select_0201_L_Shape"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shared L-configuration RF selector switch for 0201 0-ohm jumper")
+	(tags "RF switch 0201 0R select")
+	(property "Reference" "REF**"
+		(at 0 -0.8 0)
+		(layer "F.SilkS")
+		(uuid "56eff2ad-2391-477c-87f8-adeb268988d1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RF_Select_0201"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(uuid "c63b29b2-6435-4515-b5df-451310b6d36a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8769609-b08a-4a9d-8ed0-f310ead4b9d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caaff007-70a4-4324-a66f-da1aac53b577")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c0b6bd02-d2bc-467c-83da-9d1e2f0cdcec")
+	)
+	(fp_line
+		(start -0.65 -0.2)
+		(end -0.65 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "449909ef-b67e-4a47-b688-f8853ffe6378")
+	)
+	(fp_line
+		(start -0.65 0.2)
+		(end 0.2 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95ea5370-1a4d-4a0b-a6d5-d8aa207e403a")
+	)
+	(fp_line
+		(start -0.2 -0.65)
+		(end -0.2 -0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "366ad505-83f1-41ed-a400-6d5f54eab929")
+	)
+	(fp_line
+		(start -0.2 -0.2)
+		(end -0.65 -0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cde2d1e-69c9-41bf-9601-298ca928f275")
+	)
+	(fp_line
+		(start 0.2 -0.65)
+		(end -0.2 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61f5a2b2-6f5d-4aa4-9e0a-c2ccaf858193")
+	)
+	(fp_line
+		(start 0.2 0.2)
+		(end 0.2 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24fc1095-0c19-4799-ae42-a7236793fde8")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "572075d0-3541-413f-a765-1b71aaba0782")
+	)
+	(pad "2" smd roundrect
+		(at -0.55 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1289ad78-5d68-451c-b744-425ae9d34f26")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.55)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "16387ffc-e6bc-4294-9a7b-6192b8e19dc3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+		(offset
+			(xyz -0.26 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
