@@ -3710,6 +3710,16 @@
 		)
 		(uuid "fd8fbf22-49bf-44d6-a6b7-eb0744a1636b")
 	)
+	(label "USB2.0-3_DN"
+		(at 67.31 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02345248-92ed-4ebc-a6c5-b2fc9969869b")
+	)
 	(label "USB1-DP"
 		(at 194.31 78.74 0)
 		(effects
@@ -3729,6 +3739,76 @@
 			(justify left bottom)
 		)
 		(uuid "43b7e81d-f8ad-431b-a446-92d58a4d41eb")
+	)
+	(label "USB2.0-4_DP"
+		(at 83.82 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6937790e-07b1-445f-8650-fbf430a89713")
+	)
+	(label "USB2.0-1_DP"
+		(at 80.01 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95f99e09-9695-4c12-a868-896ce9c1ce08")
+	)
+	(label "USB2.0-2_DP"
+		(at 69.85 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bee646e6-19d7-4a33-8732-37c66918c0de")
+	)
+	(label "USB2.0-1_DN"
+		(at 77.47 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd9f4633-1754-44ab-91b3-33d8ad3d41d3")
+	)
+	(label "USB2.0-3_DP"
+		(at 67.31 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf256abd-1e13-4903-b8f5-b6a221785b8f")
+	)
+	(label "USB2.0-2_DN"
+		(at 69.85 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcd383f2-65a1-4e59-9077-03cde9223894")
+	)
+	(label "USB2.0-4_DN"
+		(at 86.36 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb97e4c2-0e50-4310-afdd-f6fda0d04e5e")
 	)
 	(hierarchical_label "{USB1}"
 		(shape bidirectional)

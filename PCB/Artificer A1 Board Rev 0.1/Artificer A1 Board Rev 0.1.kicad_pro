@@ -161,7 +161,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0762,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -174,7 +174,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0762,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -226,7 +226,15 @@
       ],
       "track_widths": [
         0.0,
-        0.0762
+        0.0762,
+        0.09,
+        0.102,
+        0.109,
+        0.25,
+        0.5,
+        1.0,
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -539,7 +547,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -549,43 +557,57 @@
         "diff_pair_width": 0.102,
         "name": "DIFF_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.35,
         "via_drill": 0.2
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.163,
+        "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
-        "via_diameter": 0.45
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.381,
+        "diff_pair_width": 0.102,
+        "name": "ETH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.102,
+        "tuning_profile": ""
       },
       {
         "clearance": 0.127,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.35,
         "via_drill": 0.2
       },
       {
         "clearance": 0.127,
         "name": "SE_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.35,
         "via_drill": 0.2
       }
     ],
@@ -594,7 +616,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DIFF_MIPI",
+        "pattern": "*MCSI*"
+      },
+      {
+        "netclass": "DIFF_MIPI",
+        "pattern": "*DSI*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*HTX*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*EDP-*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*USB3*"
+      },
+      {
+        "netclass": "SE_50",
+        "pattern": "*SDQ*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*USB1-*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*USB2-*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*USB2.0-*"
+      },
+      {
+        "netclass": "SE_50",
+        "pattern": "*ETH0*"
+      },
+      {
+        "netclass": "SE_50",
+        "pattern": "*ETH1*"
+      },
+      {
+        "netclass": "ETH",
+        "pattern": "*GM_MDI*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1039,8 +1114,8 @@
         "DSI0-D2P",
         "DSI0-D3N",
         "DSI0-D3P",
-        "DSI0-SCL",
-        "DSI0-SDA"
+        "Disp0-SCL",
+        "Disp0-SDA"
       ],
       "DSI1": [
         "DSI1-D0N",
@@ -1053,8 +1128,8 @@
         "DSI1-D2P",
         "DSI1-D3N",
         "DSI1-D3P",
-        "DSI1-SCL",
-        "DSI1-SDA"
+        "Disp1-SCL",
+        "Disp1-SDA"
       ],
       "DispPrt": [
         "EDP-TX0P",
@@ -1135,7 +1210,7 @@
         "PCIE-RX0-DN",
         "PCIE0-CLKREQN",
         "USB2-DP",
-        "USB2-DM",
+        "USB2-DN",
         "PCIE-SEL"
       ],
       "SDC0": [
@@ -1227,7 +1302,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "C171-172,C176-180,C189-194,C300-303,SW1,R195-203,#PWR386,#PWR442-443",
+    "used_designators": "U7,M1,RJ3-4",
     "variants": []
   },
   "sheets": [
