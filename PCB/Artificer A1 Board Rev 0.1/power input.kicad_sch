@@ -8831,7 +8831,7 @@
 		)
 		(uuid "fe7e35cf-d2d9-4f18-80c4-8c3dad848e99")
 	)
-	(label "UART0_TX"
+	(label "DBG_UART0_TX"
 		(at 21.59 73.66 270)
 		(effects
 			(font
@@ -8871,7 +8871,7 @@
 		)
 		(uuid "23b964d4-f0eb-46b0-a400-0a45138d41e0")
 	)
-	(label "DP"
+	(label "DBG_DP"
 		(at 24.13 73.66 270)
 		(effects
 			(font
@@ -8881,7 +8881,7 @@
 		)
 		(uuid "2546c952-5a81-46ef-a2da-72a582f79f18")
 	)
-	(label "UART0_RX"
+	(label "DBG_UART0_RX"
 		(at 31.75 73.66 270)
 		(effects
 			(font
@@ -8891,7 +8891,7 @@
 		)
 		(uuid "278d6ab5-e3d4-46f2-b6e6-b5348362361d")
 	)
-	(label "DN"
+	(label "DBG_DN"
 		(at 54.61 34.29 180)
 		(effects
 			(font
@@ -8991,7 +8991,7 @@
 		)
 		(uuid "52f59c2a-02a7-41be-b788-6df9a5b5c6a9")
 	)
-	(label "DN"
+	(label "DBG_DN"
 		(at 29.21 73.66 270)
 		(effects
 			(font
@@ -9021,7 +9021,7 @@
 		)
 		(uuid "883d9828-0bac-4ec2-b659-ba4f534d95a6")
 	)
-	(label "DP"
+	(label "DBG_DP"
 		(at 54.61 31.75 180)
 		(effects
 			(font
@@ -9071,7 +9071,7 @@
 		)
 		(uuid "d0d7bd36-513d-4f0a-abe9-d1a54ff42a0d")
 	)
-	(label "UART0_TX"
+	(label "DBG_UART0_TX"
 		(at 54.61 29.21 180)
 		(effects
 			(font
@@ -9101,7 +9101,7 @@
 		)
 		(uuid "d9fbb31d-05f1-48db-8866-17c413a2637b")
 	)
-	(label "UART0_RX"
+	(label "DBG_UART0_RX"
 		(at 54.61 44.45 180)
 		(effects
 			(font

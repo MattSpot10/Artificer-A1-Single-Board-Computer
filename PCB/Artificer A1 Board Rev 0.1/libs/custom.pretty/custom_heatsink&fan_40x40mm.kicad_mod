@@ -1,0 +1,125 @@
+(footprint "custom_heatsink&fan_40x40mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "F**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f02bb76c-ee46-4b24-ad69-07dda7d22ea2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "28x28mm heatsink & 30x30mm fan"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5a37630d-37f0-415d-8231-eadd10b59b73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b21ee89-56fe-486e-a36f-d2002633f41e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dc0d0f7-39c9-4da1-99a5-f70a1188c18c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -20 -20)
+		(end 20 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4b7f6a3a-3761-4456-be48-dcd5541a6c3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4b624f4-35e1-4dcb-9d92-31843239deb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -17.5 -17.5)
+		(size 6 6)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9091d999-2106-41b0-bbb6-ca0a73b884d3")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 -17.5)
+		(size 6 6)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36124c88-e20f-45cb-a036-c3d8a01b0b15")
+	)
+	(pad "3" thru_hole circle
+		(at -17.5 17.5)
+		(size 6 6)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dfea12f2-d1ee-405d-9aa4-9f946cffa171")
+	)
+	(pad "4" thru_hole circle
+		(at 17.5 17.5)
+		(size 6 6)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "552c7598-d9d4-4103-966b-8e8d9b11ea2a")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/matts/Documents/Custom SBC/Artificer A1/Artificer-A1-Single-Board-Computer/PCB/Artificer A1 Board Rev 0.1/libs/custom.3dshapes/Fan-2.step"
+		(offset
+			(xyz -20 -20 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

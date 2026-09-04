@@ -3571,6 +3571,24 @@
 		(uuid "acf65184-9d86-44d6-8676-542a88c3b809")
 	)
 	(bus_entry
+		(at 25.4 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bd5229-daf7-428d-99c7-86d01ddc4b0a")
+	)
+	(bus_entry
+		(at 177.8 68.58)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc14d5c-fd61-47ba-80d1-bb74fdbd5325")
+	)
+	(bus_entry
 		(at 177.8 81.28)
 		(size -2.54 2.54)
 		(stroke
@@ -3580,15 +3598,6 @@
 		(uuid "d836e1d2-8e20-4dc2-90f0-b3582cde00ae")
 	)
 	(bus_entry
-		(at 177.8 68.58)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f8ba01-fe50-4812-bee8-f7da8665a49a")
-	)
-	(bus_entry
 		(at 25.4 137.16)
 		(size 2.54 2.54)
 		(stroke
@@ -3596,15 +3605,6 @@
 			(type default)
 		)
 		(uuid "e05d7994-36af-4248-8231-8d1f978fff41")
-	)
-	(bus_entry
-		(at 25.4 68.58)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9938ed1-80e0-498f-bdc9-0e8474e09609")
 	)
 	(bus_entry
 		(at 25.4 134.62)
@@ -3753,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "18c5e438-3195-4369-8a10-ce4b280d676f")
-	)
-	(bus
-		(pts
-			(xy 25.4 53.34) (xy 25.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19afb187-d51c-4e59-a2c6-7ee6122dcd90")
 	)
 	(bus
 		(pts
@@ -4036,7 +4026,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 68.58) (xy 177.8 88.9)
+			(xy 177.8 19.05) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4554,16 +4544,6 @@
 		)
 		(uuid "bd387306-0d9c-4f32-b35e-9ba88c404190")
 	)
-	(bus
-		(pts
-			(xy 177.8 19.05) (xy 177.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb9514f-e0e4-4c2c-8b7d-20337dfe0155")
-	)
 	(wire
 		(pts
 			(xy 160.02 26.67) (xy 170.18 26.67)
@@ -4586,7 +4566,7 @@
 	)
 	(bus
 		(pts
-			(xy 25.4 68.58) (xy 25.4 88.9)
+			(xy 25.4 53.34) (xy 25.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4814,15 +4794,25 @@
 		)
 		(uuid "038b84cb-8d51-4eee-a69c-4bdc404c5232")
 	)
-	(label "PCIE0-WAKEN "
-		(at 41.91 71.12 180)
+	(label "PCIE0-WAKEN"
+		(at 27.94 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "064b17f6-f21c-42c3-9c96-a7a1eb3ca0ab")
+	)
+	(label "PCIE0-PERSTN"
+		(at 175.26 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "07424174-0065-49de-9be4-73d186f6d952")
+		(uuid "0af6cd76-ccf4-4d50-99fc-6ff86a71b8b5")
 	)
 	(label "USB2-DN"
 		(at 27.94 172.72 0)
@@ -5053,16 +5043,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae0b05f7-7ed0-4b94-a59d-cb628140f909")
-	)
-	(label "PCIE0-PERSTN"
-		(at 175.26 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2dd8162-5896-46fc-a8c3-ac220d54482a")
 	)
 	(label "PCIE_B-RX0-DN"
 		(at 132.08 134.62 180)
@@ -8154,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 45.72 116.84 90)
 			(show_name no)
 			(do_not_autoplace yes)

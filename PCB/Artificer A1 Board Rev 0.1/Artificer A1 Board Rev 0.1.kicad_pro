@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.75,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -547,7 +547,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.35,
+        "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -557,11 +557,24 @@
         "diff_pair_width": 0.102,
         "name": "DIFF_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
-        "via_diameter": 0.35,
+        "via_diameter": 0.3,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1029,
+        "name": "DIFF_90_INNER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.102,
+        "tuning_profile": "",
+        "via_diameter": 0.3,
         "via_drill": 0.2
       },
       {
@@ -570,11 +583,11 @@
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
-        "via_diameter": 0.35,
+        "via_diameter": 0.3,
         "via_drill": 0.2
       },
       {
@@ -583,31 +596,33 @@
         "diff_pair_width": 0.102,
         "name": "ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
-        "tuning_profile": ""
+        "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.127,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
-        "via_diameter": 0.35,
+        "via_diameter": 0.3,
         "via_drill": 0.2
       },
       {
         "clearance": 0.127,
         "name": "SE_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
-        "via_diameter": 0.35,
+        "via_diameter": 0.3,
         "via_drill": 0.2
       }
     ],
@@ -668,6 +683,26 @@
       {
         "netclass": "ETH",
         "pattern": "*GM_MDI*"
+      },
+      {
+        "netclass": "DIFF_90_INNER",
+        "pattern": "*DBG_*"
+      },
+      {
+        "netclass": "DIFF_90_INNER",
+        "pattern": "*SDQS2*"
+      },
+      {
+        "netclass": "SE_50",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*ML_LANE*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*AUX_CH*"
       }
     ]
   },
@@ -1213,6 +1248,10 @@
         "USB2-DN",
         "PCIE-SEL"
       ],
+      "PMIC-TWI": [
+        "PMU-SCK",
+        "PMU-SDA"
+      ],
       "SDC0": [
         "SDC0-D2",
         "SDC0-D3",
@@ -1227,10 +1266,10 @@
         "USB1-DN"
       ],
       "USB_DRD": [
-        "DP",
-        "DN",
-        "UART0_TX",
-        "UART0_RX"
+        "DBG_DP",
+        "DBG_DN",
+        "DBG_UART0_TX",
+        "DBG_UART0_RX"
       ],
       "WL-BT": [
         "AP-WAKE-BT",
@@ -1302,7 +1341,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U7,M1,RJ3-4",
+    "used_designators": "U7,U18,M1-2,R206-214,RJ3-4,#PWR453,#PWR455-456,#PWR462-471,X4-5,C304-307",
     "variants": []
   },
   "sheets": [
