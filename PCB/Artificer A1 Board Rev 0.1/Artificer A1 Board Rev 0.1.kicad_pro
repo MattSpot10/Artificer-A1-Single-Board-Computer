@@ -685,7 +685,7 @@
         "pattern": "*GM_MDI*"
       },
       {
-        "netclass": "DIFF_90_INNER",
+        "netclass": "DIFF_90",
         "pattern": "*DBG_*"
       },
       {
@@ -703,6 +703,14 @@
       {
         "netclass": "DIFF_90",
         "pattern": "*AUX_CH*"
+      },
+      {
+        "netclass": "DIFF_90_INNER",
+        "pattern": "*SCKA*"
+      },
+      {
+        "netclass": "DIFF_90_INNER",
+        "pattern": "*SCKB*"
       }
     ]
   },
@@ -1217,6 +1225,36 @@
         "RGMII1-RXD3",
         "RGMII1-CLKIN"
       ],
+      "GPIO": [
+        "PL2",
+        "PL3",
+        "PL4",
+        "PL5",
+        "PL6",
+        "PL7",
+        "PL8",
+        "PL9",
+        "PL10",
+        "PL11",
+        "PL12",
+        "PL13",
+        "PI0",
+        "PI1",
+        "PI2",
+        "PI3",
+        "PI4",
+        "PI5",
+        "PI6",
+        "PI7",
+        "PI8",
+        "PI9",
+        "PI10",
+        "PI11",
+        "PI12",
+        "PI13",
+        "PI14",
+        "PI15"
+      ],
       "HDMI": [
         "HTX2P",
         "HTX2N",
@@ -1341,7 +1379,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U7,U18,M1-2,R206-214,RJ3-4,#PWR453,#PWR455-456,#PWR462-471,X4-5,C304-307",
+    "used_designators": "C282-286,C288,C308-428,#PWR45,#PWR489-588,R227-232,SW1-2",
     "variants": []
   },
   "sheets": [

@@ -165,6 +165,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Cap:JLCPCB_Res_Custom"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JLCPCB_Res_Custom_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JLCPCB_Res_Custom_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda:0.5K-A-22PB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -979,6 +1109,18 @@
 		(uuid "3d8b2e36-fff7-4007-b559-972fd9925954")
 	)
 	(junction
+		(at 172.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de54e61-e3cc-4f8b-9525-c0e3cde1de24")
+	)
+	(junction
+		(at 146.05 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434012ca-c1f5-4355-a840-6fe62ecf5f6b")
+	)
+	(junction
 		(at 143.51 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -991,10 +1133,22 @@
 		(uuid "61177150-cab1-4639-9227-42580776345d")
 	)
 	(junction
+		(at 146.05 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6faeeba2-d0c6-40e9-90d1-7189fdae48e0")
+	)
+	(junction
 		(at 143.51 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72caabe4-3384-4267-8521-50bff229f10c")
+	)
+	(junction
+		(at 172.72 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c8bdf5-ee81-4b85-b7e2-9871e02a3535")
 	)
 	(junction
 		(at 143.51 128.27)
@@ -1021,6 +1175,12 @@
 		(uuid "a3ea5261-1ad8-4e77-9889-1994381ed51f")
 	)
 	(junction
+		(at 146.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f87226-8bf3-4cf8-b5b4-77c604ebcdb1")
+	)
+	(junction
 		(at 143.51 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1037,6 +1197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f502efbe-095a-464f-91ed-a129009457c9")
+	)
+	(junction
+		(at 146.05 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57558ce-a210-4d28-b48b-61b304526d7a")
 	)
 	(junction
 		(at 132.08 87.63)
@@ -1322,6 +1488,16 @@
 		)
 		(uuid "0782eea9-9105-4e48-ba82-a534df1ec922")
 	)
+	(wire
+		(pts
+			(xy 172.72 165.1) (xy 172.72 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097eb682-67f6-4371-8dca-4772a52d5e57")
+	)
 	(bus
 		(pts
 			(xy 105.41 125.73) (xy 105.41 128.27)
@@ -1402,6 +1578,16 @@
 		)
 		(uuid "3e479641-8815-4b51-9862-e78ecba6c40d")
 	)
+	(wire
+		(pts
+			(xy 146.05 85.09) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f72a43-98d3-4e31-9b5f-7b782bcba35f")
+	)
 	(bus
 		(pts
 			(xy 105.41 46.99) (xy 105.41 49.53)
@@ -1421,6 +1607,16 @@
 			(type default)
 		)
 		(uuid "469d57dd-210d-4a46-9bee-ce2e27c19d29")
+	)
+	(wire
+		(pts
+			(xy 146.05 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af36706-c91c-4a6a-9d17-42a7706d5bc2")
 	)
 	(wire
 		(pts
@@ -1471,6 +1667,26 @@
 			(type default)
 		)
 		(uuid "5849ae8d-2e83-400e-9b3a-ad6c6905b8c8")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a852cd7-6fdb-4062-bea6-989f829d0b6e")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca39cfe-9018-403a-96be-73138734d625")
 	)
 	(wire
 		(pts
@@ -1554,6 +1770,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 154.94) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69392238-73f8-4bf4-b42b-d2ec494f41b0")
+	)
+	(wire
+		(pts
 			(xy 107.95 140.97) (xy 146.05 140.97)
 		)
 		(stroke
@@ -1591,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "710f3e3f-5289-481e-8ca7-514bfe29ae35")
+	)
+	(wire
+		(pts
+			(xy 170.18 157.48) (xy 170.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74161a85-3df9-4313-97c5-f1e13ee35753")
 	)
 	(bus
 		(pts
@@ -1654,6 +1890,36 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 68.58) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec2b63a-cc69-443e-bec8-53fb49765d28")
+	)
+	(wire
+		(pts
+			(xy 146.05 168.91) (xy 170.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86022f8d-d002-4696-ad10-bbe0faba7bdd")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8834f85a-ff90-4804-9937-7a7e639ff6d5")
+	)
+	(wire
+		(pts
 			(xy 107.95 168.91) (xy 146.05 168.91)
 		)
 		(stroke
@@ -1711,6 +1977,16 @@
 			(type default)
 		)
 		(uuid "9674c6d1-683b-47d7-83b1-ca7fc72a157c")
+	)
+	(wire
+		(pts
+			(xy 172.72 154.94) (xy 172.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b65651-cfe8-4e9f-b544-c6f5f0bcb0c4")
 	)
 	(wire
 		(pts
@@ -1974,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 71.12) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8078931-8823-45e2-b549-d1aaa2d9fc55")
+	)
+	(wire
+		(pts
 			(xy 107.95 39.37) (xy 146.05 39.37)
 		)
 		(stroke
@@ -2004,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 171.45) (xy 172.72 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60d077a-f1b0-454a-888f-bdc0a01e4c3b")
+	)
+	(wire
+		(pts
 			(xy 107.95 171.45) (xy 146.05 171.45)
 		)
 		(stroke
@@ -2011,6 +2307,16 @@
 			(type default)
 		)
 		(uuid "e6be64f2-f5df-47f9-a171-f9e9342b33a4")
+	)
+	(wire
+		(pts
+			(xy 170.18 165.1) (xy 170.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9c3758-da9f-4382-a8b0-43df2b9e5226")
 	)
 	(wire
 		(pts
@@ -2540,6 +2846,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eea6d0d-1615-4d60-bcf3-404c5a27404b")
+		(property "Reference" "#PWR0488"
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC3V3-CSI"
+			(at 166.878 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d2dd4f1-4a2e-4fb8-a276-91113a7daa34")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "#PWR0488")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
 		(at 132.08 93.98 180)
 		(unit 1)
@@ -2631,6 +3015,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 172.72 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46927034-5837-4876-8f83-e75e194195fe")
+		(property "Reference" "R224"
+			(at 175.006 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 172.72 74.93 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 174.498 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00f7e78c-6735-496b-bd84-c4e9976ea3ee")
+		)
+		(pin "2"
+			(uuid "69d389ec-63bb-47ed-a11c-42d4e8485cc5")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "R224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda:0.5K-A-22PB")
 		(at 151.13 149.86 0)
 		(unit 1)
@@ -2640,10 +3105,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7838c5fb-3e38-428d-acb9-7bc0b4a13867")
 		(property "Reference" "FPC2"
-			(at 154.94 146.0499 0)
+			(at 155.448 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2654,7 +3118,7 @@
 			)
 		)
 		(property "Value" "0.5K-A-22PB"
-			(at 154.94 148.5899 0)
+			(at 155.448 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2799,10 +3263,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e3fd062-c6bc-46a0-a9c7-1c9f46ec6f53")
 		(property "Reference" "FPC1"
-			(at 154.94 59.6899 0)
+			(at 155.448 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2813,7 +3276,7 @@
 			)
 		)
 		(property "Value" "0.5K-A-22PB"
-			(at 154.94 62.2299 0)
+			(at 155.448 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3112,6 +3575,325 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
 					(reference "C165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 172.72 161.29 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ff6fa22-aa5b-417b-af29-6cb975417d11")
+		(property "Reference" "R226"
+			(at 175.006 164.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 172.72 161.29 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 174.498 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a662df50-adc1-46f3-8ca8-1f94488baa80")
+		)
+		(pin "2"
+			(uuid "1440f305-1b93-4459-b595-07348d82dc98")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "R226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 170.18 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b47ea5a3-bae3-4261-bf20-0c02c98f7871")
+		(property "Reference" "R223"
+			(at 167.894 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 74.93 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 168.402 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ecba71e-82fe-402e-b96f-5780260be56f")
+		)
+		(pin "2"
+			(uuid "03bb015d-231b-46ff-a728-2e3170f256eb")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "R223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db9f140c-6f45-451a-b8ac-08e68ffec5b2")
+		(property "Reference" "#PWR0487"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC3V3-CSI"
+			(at 166.878 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0e59ef3-0bf3-48b2-9983-439df159f0f6")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "#PWR0487")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 170.18 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd25e9cc-e9cb-427b-a8aa-9d7555909daa")
+		(property "Reference" "R225"
+			(at 167.894 164.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 161.29 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 168.402 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c654d94-dc40-4c8a-8fea-2018cd9537bb")
+		)
+		(pin "2"
+			(uuid "c7673064-936b-41d9-808d-64a199095d8f")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/f6f33ebb-5c0b-4a90-8c47-ad37181a309f"
+					(reference "R225")
 					(unit 1)
 				)
 			)

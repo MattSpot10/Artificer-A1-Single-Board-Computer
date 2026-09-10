@@ -559,6 +559,16 @@
 	)
 	(bus
 		(pts
+			(xy 72.39 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0998d1bf-0d79-41ae-b03b-cdaa63e174da")
+	)
+	(bus
+		(pts
 			(xy 148.59 68.58) (xy 148.59 88.9)
 		)
 		(stroke
@@ -1810,6 +1820,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{GPIO}" bidirectional
+			(at 72.39 95.25 0)
+			(uuid "56dff41a-1757-46ae-8822-ff20a01c73b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389"
@@ -2110,6 +2130,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{GPIO}" bidirectional
+			(at 80.01 95.25 180)
+			(uuid "4a6355fe-be26-4e0a-a85e-ade688752121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

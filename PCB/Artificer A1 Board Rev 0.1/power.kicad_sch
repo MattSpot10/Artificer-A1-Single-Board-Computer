@@ -37023,6 +37023,12 @@
 		(uuid "7bdd7d42-ba5c-4670-8947-a621de0d1142")
 	)
 	(junction
+		(at 240.03 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d50d363-cd7a-4cfa-900c-b92faa141497")
+	)
+	(junction
 		(at 97.79 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -37051,6 +37057,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e4ab792-4556-434a-85f2-6ef214ca73e6")
+	)
+	(junction
+		(at 245.11 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a313c6-3e23-4b66-a85d-8f0ae1b534bd")
 	)
 	(junction
 		(at 361.95 116.84)
@@ -37117,6 +37129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8acc8f-8ce6-491a-a267-40cecdc6e17d")
+	)
+	(junction
+		(at 240.03 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b008b9c2-992a-4319-8079-334446d8046e")
 	)
 	(junction
 		(at 30.48 273.05)
@@ -37586,7 +37604,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 36.83) (xy 261.62 36.83)
+			(xy 218.44 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -38556,6 +38574,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 30.48) (xy 240.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fda3c1-1536-490e-95be-615d75283cdb")
+	)
+	(wire
+		(pts
 			(xy 388.62 43.18) (xy 388.62 40.64)
 		)
 		(stroke
@@ -38976,7 +39004,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 31.75) (xy 261.62 31.75)
+			(xy 217.17 31.75) (xy 240.03 31.75)
 		)
 		(stroke
 			(width 0)
@@ -39676,6 +39704,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 31.75) (xy 261.62 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f22235-5e01-48e4-8ac7-43d93615e445")
+	)
+	(wire
+		(pts
 			(xy 162.56 245.11) (xy 189.23 245.11)
 		)
 		(stroke
@@ -39936,6 +39974,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 30.48) (xy 245.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7a917d-4903-49ab-8952-17f7a4742f3a")
+	)
+	(wire
+		(pts
 			(xy 243.84 129.54) (xy 252.73 129.54)
 		)
 		(stroke
@@ -40166,6 +40214,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 22.86) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1354190-c285-4463-b806-a834105b37d5")
+	)
+	(wire
+		(pts
 			(xy 379.73 175.26) (xy 379.73 177.8)
 		)
 		(stroke
@@ -40203,6 +40261,16 @@
 			(type default)
 		)
 		(uuid "d4522deb-c303-4f93-9776-b862fd384603")
+	)
+	(wire
+		(pts
+			(xy 245.11 36.83) (xy 261.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47ac28d-6061-4e5e-bad3-3a48bb0ee3ac")
 	)
 	(wire
 		(pts
@@ -40990,30 +41058,6 @@
 	)
 	(global_label "AP-RESET"
 		(shape input)
-		(at 200.66 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25110190-f366-4371-825e-98e433bd8dac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9987 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "AP-RESET"
-		(shape input)
 		(at 278.13 181.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -41022,7 +41066,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5bbd2ce5-64a4-48e3-8033-f67597cd7c43")
+		(uuid "5edd8e03-11c0-409f-88e5-065e7e965311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.4687 181.61 0)
 			(hide yes)
@@ -41163,6 +41207,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "AP-RESET"
+		(shape input)
+		(at 200.66 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6a486d7-5a00-4e4f-9e85-e2708f186b49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.9987 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -50378,6 +50446,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 22.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d0cae41-d1c7-46e5-9a9d-14fc32578112")
+		(property "Reference" "#PWR0509"
+			(at 240.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-RTC"
+			(at 245.618 21.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 240.03 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95b51ea6-0cd3-4f88-bfb0-11a8bd566c85")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
+					(reference "#PWR0509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
 		(at 360.68 90.17 180)
 		(unit 1)
@@ -51693,6 +51839,86 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
 					(reference "C275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 245.11 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a2f0459-04d8-4b70-8d85-148ae8b87440")
+		(property "Reference" "R231"
+			(at 242.824 28.194 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 245.11 26.67 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 243.332 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bacc6d9-7c18-427d-905b-98dd3f2402ca")
+		)
+		(pin "2"
+			(uuid "9694a98f-436d-4802-9f8c-4511c02b6642")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
+					(reference "R231")
 					(unit 1)
 				)
 			)
@@ -55070,6 +55296,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 240.03 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd434c47-b8d4-4d75-8812-aad3202f9660")
+		(property "Reference" "R230"
+			(at 237.744 28.194 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 240.03 26.67 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 238.252 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80b86a43-aa73-4342-a843-da163a57a585")
+		)
+		(pin "2"
+			(uuid "a6b81957-9279-4eac-a58b-08906b8fa0e4")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
+					(reference "R230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
 		(at 68.58 127 180)
 		(unit 1)
@@ -55813,7 +56119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0Ω"
+		(property "Value" "1k"
 			(at 111.76 118.11 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -56866,7 +57172,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 219.456 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56910,7 +57216,7 @@
 				)
 			)
 		)
-		(property "Voltage Rated" "16V"
+		(property "Voltage Rated" "10V"
 			(at 217.424 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57590,7 +57896,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 205.486 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57634,7 +57940,7 @@
 				)
 			)
 		)
-		(property "Voltage Rated" "16V"
+		(property "Voltage Rated" "10V"
 			(at 203.454 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59645,10 +59951,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fbec652e-e044-44ad-89cb-dfd4fa6917a5")
 		(property "Reference" "R174"
 			(at 118.618 128.016 0)
@@ -59661,7 +59967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0Ω"
+		(property "Value" "100k"
 			(at 111.76 128.27 90)
 			(show_name no)
 			(do_not_autoplace yes)
