@@ -1,5 +1,42 @@
+#(version 1)
+#
+#(rule "U8 BGA differential pair"
+#    (constraint track_width (min 0.077mm) (opt 0.077mm) (max 0.077mm))
+#    (constraint diff_pair_gap (min 0.077mm) (opt 0.077mm))
+#    (constraint clearance (min 0.077mm))
+#    (condition "A.intersectsCourtyard('U8')")
+#)
+#
+#(rule "U8 BGA trace width"
+#    (constraint track_width (min 0.077mm) (opt 0.077mm) (max 0.077mm))
+#    (condition "A.insideCourtyard('U8')")
+#)
+#
+#(rule "U8 BGA trace to trace"
+#    (constraint clearance (min 0.077mm))
+#    (condition "A.Type == 'Track' && A.insideCourtyard('U8')")
+#)
+#
+#(rule "U8 BGA trace to pad"
+#    (constraint clearance (min 0.091mm))
+#    (condition "(A.Type == 'Track' && B.Type == 'Pad' && B.memberOfFootprint('U8')) || (A.Type == 'Pad' && B.Type == 'Track' && A.memberOfFootprint('U8'))")
+#)
+#
+#(rule "U8 BGA via to pad"
+#    (constraint clearance (min 0.091mm))
+#    (condition "(A.Type == 'Via' && B.Type == 'Pad' && B.memberOfFootprint('U8')) || (A.Type == 'Pad' && B.Type == 'Via' && A.memberOfFootprint('U8'))")
+#)
+#
+#
+
 (version 1)
 
-(rule "BGA_Escape_Clearance"
-   (constraint clearance (min 0.0762mm))
-   (condition "A.memberOfFootprint('U8') || B.memberOfFootprint('U8')"))
+(rule "U8 BGA trace width"
+    (condition "A.Reference == 'U8'")
+    (constraint track_width (min 0.077mm) (opt 0.077mm) (max 0.077mm))
+)
+
+(rule "U8 BGA clearance"
+    (condition "A.Reference == 'U8' || B.Reference == 'U8'")
+    (constraint clearance (min 0.091mm))
+)

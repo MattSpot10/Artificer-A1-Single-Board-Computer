@@ -45395,6 +45395,16 @@
 		)
 		(uuid "02f7dd13-4eaf-4424-847b-e86b42b2d448")
 	)
+	(label "PCIE-DP"
+		(at 302.26 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "041c8d3f-cd15-4d30-be90-cffbc9bafde3")
+	)
 	(label "SCL-D"
 		(at 104.14 80.01 180)
 		(effects
@@ -45404,6 +45414,16 @@
 			(justify right bottom)
 		)
 		(uuid "05302ef8-817e-4131-9d5f-a45b4ee06748")
+	)
+	(label "PCIE-DN"
+		(at 302.26 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "053fc6a7-9a67-40e3-9c9f-2cdb1841839c")
 	)
 	(label "WL-WAKE-AP"
 		(at 147.32 200.66 0)
@@ -46124,6 +46144,16 @@
 			(justify right bottom)
 		)
 		(uuid "48d08875-6fa9-4135-a3a5-36a7f1d7ab15")
+	)
+	(label "PCIE-CLKP"
+		(at 302.26 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49c2a4b1-3550-426e-9792-3fa59f7ddf4f")
 	)
 	(label "DSI1-CKN"
 		(at 391.16 64.77 180)
@@ -47514,6 +47544,16 @@
 			(justify left bottom)
 		)
 		(uuid "e62068ce-e3ba-42e8-96c9-bc9a84f3fcb5")
+	)
+	(label "PCIE-CLKN"
+		(at 302.26 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e64dacc7-59bf-4c32-bb42-5e89d45ce8ba")
 	)
 	(label "ETH1.RGMII-RXCTL"
 		(at 389.89 163.83 180)

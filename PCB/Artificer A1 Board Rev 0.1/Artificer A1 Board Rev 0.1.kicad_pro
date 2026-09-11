@@ -161,12 +161,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.077,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.0762,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -174,9 +174,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.077,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.02,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -226,15 +226,9 @@
       ],
       "track_widths": [
         0.0,
-        0.0762,
-        0.09,
+        0.077,
         0.102,
-        0.109,
-        0.25,
-        0.5,
-        1.0,
-        1.5,
-        2.0
+        0.109
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -243,23 +237,23 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.5
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.6,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.6,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         }
       },
       "via_dimensions": [
@@ -560,7 +554,7 @@
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
-        "tuning_profile": "",
+        "tuning_profile": "DIFF_90_MIPI",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -578,7 +572,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.0762,
+        "clearance": 0.127,
         "diff_pair_gap": 0.163,
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
@@ -609,8 +603,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.109,
-        "tuning_profile": "",
+        "tuning_profile": "SE_50",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -1379,7 +1372,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "C282-286,C288,C308-428,#PWR45,#PWR489-588,R227-232,SW1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1457,6 +1450,75 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5877400,
+            "diff_pair_gap": 163000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 109000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5991200,
+            "diff_pair_gap": 163000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 109000
+          }
+        ],
+        "profile_name": "DIFF_90_MIPI",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5606200,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 109000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5606200,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 109000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
+          }
+        ],
+        "profile_name": "SE_50",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
