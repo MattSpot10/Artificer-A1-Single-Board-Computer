@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f02bb76c-ee46-4b24-ad69-07dda7d22ea2")
+		(uuid "13b5bbda-2414-4fa6-bb1a-39f8f700e96f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5a37630d-37f0-415d-8231-eadd10b59b73")
+		(uuid "173c3d76-0f09-4d57-9ca2-e2ae78d81ba2")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b21ee89-56fe-486e-a36f-d2002633f41e")
+		(uuid "9bfd87c5-0b74-4f9e-9a90-29a6eab3a0f5")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6dc0d0f7-39c9-4da1-99a5-f70a1188c18c")
+		(uuid "20ffa80d-8276-4f41-81e7-79cce36b899e")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4b7f6a3a-3761-4456-be48-dcd5541a6c3c")
+		(uuid "4edf7820-bb2f-4c5d-b583-75cb3c51c581")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e4b624f4-35e1-4dcb-9d92-31843239deb3")
+		(uuid "9d466d0d-579c-466b-acbe-41f4bbb11077")
 		(effects
 			(font
 				(size 1 1)
@@ -80,35 +80,39 @@
 	)
 	(pad "1" thru_hole circle
 		(at -17.5 -17.5)
-		(size 6 6)
-		(drill 2.75)
+		(size 5 5)
+		(drill 2.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9091d999-2106-41b0-bbb6-ca0a73b884d3")
+		(zone_connect 2)
+		(uuid "35c424cd-386c-4548-b80e-5d206cc833e5")
 	)
 	(pad "2" thru_hole circle
 		(at 17.5 -17.5)
-		(size 6 6)
-		(drill 2.75)
+		(size 5 5)
+		(drill 2.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "36124c88-e20f-45cb-a036-c3d8a01b0b15")
+		(zone_connect 2)
+		(uuid "26ab6b4b-dfcc-4315-994b-a0e158fe50e8")
 	)
 	(pad "3" thru_hole circle
 		(at -17.5 17.5)
-		(size 6 6)
-		(drill 2.75)
+		(size 5 5)
+		(drill 2.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "dfea12f2-d1ee-405d-9aa4-9f946cffa171")
+		(zone_connect 2)
+		(uuid "a439ed64-b9fc-4c61-9c31-4fbadf1d47b3")
 	)
 	(pad "4" thru_hole circle
 		(at 17.5 17.5)
-		(size 6 6)
-		(drill 2.75)
+		(size 5 5)
+		(drill 2.25)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "552c7598-d9d4-4103-966b-8e8d9b11ea2a")
+		(zone_connect 2)
+		(uuid "2287b7a5-aa0d-4e0e-97b6-bf100cb427e5")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/matts/Documents/Custom SBC/Artificer A1/Artificer-A1-Single-Board-Computer/PCB/Artificer A1 Board Rev 0.1/libs/custom.3dshapes/Fan-2.step"

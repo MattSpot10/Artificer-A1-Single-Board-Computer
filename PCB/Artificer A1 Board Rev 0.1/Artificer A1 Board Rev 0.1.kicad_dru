@@ -40,3 +40,7 @@
     (condition "A.Reference == 'U8' || B.Reference == 'U8'")
     (constraint clearance (min 0.091mm))
 )
+(rule "U12 BGA clearance"
+    (condition "A.Reference == 'U12' || B.Reference == 'U12'")
+    (constraint clearance (min 0.10mm))
+)

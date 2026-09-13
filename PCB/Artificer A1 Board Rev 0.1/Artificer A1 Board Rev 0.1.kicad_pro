@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.75,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 2.25,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,19 +76,19 @@
           "width": 0.0
         },
         {
-          "gap": 0.0762,
+          "gap": 0.137,
           "via_gap": 0.0,
-          "width": 0.0762
+          "width": 0.102
         },
         {
-          "gap": 0.13716,
+          "gap": 0.188,
           "via_gap": 0.0,
-          "width": 0.102108
+          "width": 0.102
         },
         {
-          "gap": 0.16256,
+          "gap": 0.163,
           "via_gap": 0.0,
-          "width": 0.109474
+          "width": 0.109
         }
       ],
       "drc_exclusions": [],
@@ -551,20 +551,20 @@
         "diff_pair_width": 0.102,
         "name": "DIFF_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
-        "tuning_profile": "DIFF_90_MIPI",
+        "tuning_profile": "DIFF_90",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
       {
         "clearance": 0.127,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1029,
+        "diff_pair_gap": 0.188,
+        "diff_pair_width": 0.102,
         "name": "DIFF_90_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
@@ -577,10 +577,10 @@
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
-        "tuning_profile": "",
+        "tuning_profile": "DIFF_90_MIPI",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -590,7 +590,7 @@
         "diff_pair_width": 0.102,
         "name": "ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
@@ -598,11 +598,12 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.127,
+        "clearance": 0.1,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.109,
         "tuning_profile": "SE_50",
         "via_diameter": 0.3,
         "via_drill": 0.2
@@ -611,7 +612,7 @@
         "clearance": 0.127,
         "name": "SE_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
@@ -1381,10 +1382,6 @@
       "Artificer A1 Board Rev 0.1"
     ],
     [
-      "c4211ff5-fd83-42c8-a691-42056585a0db",
-      "power input"
-    ],
-    [
       "5085de0c-7619-4bc0-8748-b4b356a375dc",
       "T527 power"
     ],
@@ -1443,6 +1440,10 @@
     [
       "e53cf37e-0283-4ef8-bdbb-96b13c13260b",
       "usb"
+    ],
+    [
+      "c4211ff5-fd83-42c8-a691-42056585a0db",
+      "power input"
     ]
   ],
   "text_variables": {},
@@ -1469,6 +1470,22 @@
             "signal_layer": "B.Cu",
             "top_reference_layer": "In4.Cu",
             "width": 109000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 188000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 188000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
           }
         ],
         "profile_name": "DIFF_90_MIPI",
@@ -1516,6 +1533,48 @@
         "profile_name": "SE_50",
         "target_impedance": 50.0,
         "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5957500,
+            "diff_pair_gap": 137000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 102000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5957500,
+            "diff_pair_gap": 137000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 102000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 188000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 7094700,
+            "diff_pair_gap": 188000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102000
+          }
+        ],
+        "profile_name": "DIFF_90",
+        "target_impedance": 90.0,
+        "type": 1,
         "via_overrides": [],
         "via_prop_delay": 0
       }
