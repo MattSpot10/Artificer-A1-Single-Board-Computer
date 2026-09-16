@@ -1013,7 +1013,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1038,7 +1038,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1070,7 +1070,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1092,7 +1092,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1130,7 +1130,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1275,6 +1275,12 @@
 		(uuid "06701675-8aa4-4d26-9462-2bf8b40b1d91")
 	)
 	(junction
+		(at 127 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d1f40be-f656-4b40-8c73-2d8e0faab631")
+	)
+	(junction
 		(at 156.21 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1285,12 +1291,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e6c534-c80e-4f1c-b7c2-1d0befec96f7")
-	)
-	(junction
-		(at 127 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47fff380-d51c-4ab2-a14e-9c56a873d36d")
 	)
 	(junction
 		(at 156.21 106.68)
@@ -2005,8 +2005,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 127 128.27 0)
+		(lib_id "power:+5V")
+		(at 93.98 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2014,10 +2014,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "687363f1-f59f-49e7-88cd-4e4dead272ef")
-		(property "Reference" "#PWR0261"
-			(at 127 132.08 0)
+		(uuid "5e68efdc-242d-47ca-b4db-dbcdb918bb34")
+		(property "Reference" "#PWR0259"
+			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,8 +2026,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 127 123.19 0)
+		(property "Value" "VCC-3V3"
+			(at 93.98 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2038,7 +2037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 128.27 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,7 +2048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 128.27 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,8 +2058,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2071,12 +2070,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99672bb6-f614-4d44-a0cf-1e958c3d5dc1")
+			(uuid "064d7ab2-a22a-48d8-8ccd-72fd7e0d0964")
 		)
 		(instances
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/9ab7f5fa-ffdb-4acb-910a-53000636bccf"
-					(reference "#PWR0261")
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -2407,84 +2406,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/9ab7f5fa-ffdb-4acb-910a-53000636bccf"
 					(reference "#PWR0260")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 93.98 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77628121-2b2e-42ff-910e-690ed523b365")
-		(property "Reference" "#PWR0259"
-			(at 93.98 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 93.98 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22798aae-8f45-4c9e-a4c5-c745843552f4")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/9ab7f5fa-ffdb-4acb-910a-53000636bccf"
-					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -2876,6 +2797,83 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/9ab7f5fa-ffdb-4acb-910a-53000636bccf"
 					(reference "Card1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba2cbcf4-8674-4220-99be-5edfe63a5a52")
+		(property "Reference" "#PWR0261"
+			(at 127 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC-3V3"
+			(at 127 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "122b961b-14a6-4ef8-bfff-964d5de1dd59")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/9ab7f5fa-ffdb-4acb-910a-53000636bccf"
+					(reference "#PWR0261")
 					(unit 1)
 				)
 			)

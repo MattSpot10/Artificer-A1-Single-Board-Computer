@@ -6,14 +6,14 @@
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
-      "images": 0.6,
+      "images": 1.0,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 1.0
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -98,20 +98,20 @@
       13
     ],
     "col_widths": [
-      162,
-      147,
-      91,
+      130,
+      118,
+      82,
       67,
-      91,
-      91,
-      91,
+      73,
+      84,
+      73,
       71,
-      91,
-      91,
-      91,
-      91,
-      91,
-      91
+      73,
+      73,
+      73,
+      73,
+      73,
+      73
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

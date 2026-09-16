@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -228,7 +228,9 @@
         0.0,
         0.077,
         0.102,
-        0.109
+        0.109,
+        0.15,
+        0.175
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -623,7 +625,28 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "323-DCDC1{slash}2": "rgb(0, 72, 0)",
+      "323-DCDC3": "rgb(0, 0, 194)",
+      "5V_SYS": "rgb(72, 0, 72)",
+      "ALDO1": "rgb(0, 72, 72)",
+      "ALDO2": "rgb(0, 72, 0)",
+      "ALDO3": "rgb(128, 77, 0)",
+      "ALDO4": "rgb(132, 132, 0)",
+      "BLDO1": "rgb(0, 0, 255)",
+      "BLDO2": "rgb(0, 255, 0)",
+      "BLDO3": "rgb(255, 0, 255)",
+      "BLDO4": "rgb(255, 255, 0)",
+      "CLDO1": "rgb(204, 102, 0)",
+      "CLDO2": "rgb(132, 132, 0)",
+      "CLDO3": "rgb(132, 0, 132)",
+      "CLDO4": "rgb(0, 132, 132)",
+      "DCDC1": "rgb(0, 194, 0)",
+      "DCDC2": "rgb(221, 133, 0)",
+      "DCDC3": "rgb(194, 0, 194)",
+      "DCDC4": "rgb(194, 194, 0)",
+      "VDD06-DRAM": "rgb(132, 0, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -1373,7 +1396,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U18,CN2-3,C152,C174-175,C198-202,C353,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR589,R233-240",
     "variants": []
   },
   "sheets": [
