@@ -46315,7 +46315,7 @@
 		)
 		(uuid "654c0549-01b0-4af0-ba0d-c82d2f055fc9")
 	)
-	(label "Disp1-SDA"
+	(label "Disp0-SDA"
 		(at 27.94 99.06 0)
 		(effects
 			(font
@@ -46335,7 +46335,7 @@
 		)
 		(uuid "6759538f-68e4-4ef7-89e2-a8421e208833")
 	)
-	(label "Disp0-SCL"
+	(label "Disp1-SCL"
 		(at 370.84 82.55 180)
 		(effects
 			(font
@@ -47115,7 +47115,7 @@
 		)
 		(uuid "b22c2e9c-2a45-4ec6-8cba-f3d65f43680a")
 	)
-	(label "Disp0-SDA"
+	(label "Disp1-SDA"
 		(at 370.84 85.09 180)
 		(effects
 			(font
@@ -47145,7 +47145,7 @@
 		)
 		(uuid "baf4ef84-a9dd-422c-9d87-5fd03c00be43")
 	)
-	(label "Disp1-SCL"
+	(label "Disp0-SCL"
 		(at 27.94 96.52 0)
 		(effects
 			(font
@@ -47883,7 +47883,7 @@
 		)
 		(uuid "0ca5f12b-320b-48e1-a720-d5ff7d6bc031")
 	)
-	(hierarchical_label "{DSI0}"
+	(hierarchical_label "{DSI1}"
 		(shape bidirectional)
 		(at 373.38 90.17 270)
 		(effects
@@ -48011,7 +48011,7 @@
 		)
 		(uuid "4c4ab399-f387-478b-9dc4-3f50e81f081e")
 	)
-	(hierarchical_label "{DSI1}"
+	(hierarchical_label "{DSI0}"
 		(shape bidirectional)
 		(at 25.4 104.14 270)
 		(effects

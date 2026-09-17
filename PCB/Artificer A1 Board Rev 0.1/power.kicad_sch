@@ -36945,10 +36945,22 @@
 		(uuid "2f4f3c32-f8c1-45f7-93de-52a46e62172c")
 	)
 	(junction
+		(at 137.16 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332c6905-d9f9-49cc-9238-bc3c290c8fc9")
+	)
+	(junction
 		(at 321.31 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "345cd1ca-3311-4343-a824-104488cbb050")
+	)
+	(junction
+		(at 140.97 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3641a647-a850-49b6-b9d7-142624f28482")
 	)
 	(junction
 		(at 252.73 129.54)
@@ -37747,6 +37759,16 @@
 			(type default)
 		)
 		(uuid "0551610d-5617-44ff-9850-3b03bd2d4e3e")
+	)
+	(wire
+		(pts
+			(xy 137.16 114.3) (xy 137.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f174e6-8970-4de9-b725-3491317aae51")
 	)
 	(wire
 		(pts
@@ -38620,7 +38642,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 140.97 113.03)
+			(xy 127 113.03) (xy 137.16 113.03)
 		)
 		(stroke
 			(width 0)
@@ -39800,6 +39822,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 124.46) (xy 140.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de7786a-2288-4de3-95c5-ea722b8c7b00")
+	)
+	(wire
+		(pts
 			(xy 247.65 46.99) (xy 261.62 46.99)
 		)
 		(stroke
@@ -40257,6 +40289,16 @@
 			(type default)
 		)
 		(uuid "c6e13083-1ce3-4b5c-ab53-a3cfff90fbfb")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e59331-f508-4adb-8459-347233411522")
 	)
 	(wire
 		(pts
@@ -40987,6 +41029,16 @@
 			(type default)
 		)
 		(uuid "f6af986e-eee2-4a50-a16a-874d85a87467")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e1fa19-e20c-4913-8785-76684fd7bdc1")
 	)
 	(wire
 		(pts
@@ -49158,6 +49210,97 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
 					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
+		(at 137.16 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "641f8ae0-90a8-47cf-9948-ed940e0728c0")
+		(property "Reference" "C354"
+			(at 136.144 114.808 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF"
+			(at 138.176 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.938 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 136.398 119.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "319f576f-95b4-482d-9ea9-a44aee62615f")
+		)
+		(pin "2"
+			(uuid "4e1d993d-a08e-4011-b554-da60511a5c54")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
+					(reference "C354")
 					(unit 1)
 				)
 			)
