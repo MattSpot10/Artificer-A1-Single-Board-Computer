@@ -62,9 +62,9 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.15,
+          "min_thickness": 0.1,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -626,6 +626,9 @@
       "version": 5
     },
     "net_colors": {
+      "+12V": "rgb(255, 0, 255)",
+      "/ethernet 1/GM_VDD10": "rgb(0, 194, 194)",
+      "/ethernet0/GM_VDD10": "rgb(0, 255, 255)",
       "323-DCDC1{slash}2": "rgb(132, 132, 0)",
       "323-DCDC3": "rgb(0, 0, 194)",
       "5V_SYS": "rgb(72, 0, 72)",
@@ -633,6 +636,7 @@
       "ALDO2": "rgb(0, 72, 0)",
       "ALDO3": "rgb(128, 77, 0)",
       "ALDO4": "rgb(132, 132, 0)",
+      "AUX-3V3": "rgb(0, 132, 132)",
       "BLDO1": "rgb(0, 0, 255)",
       "BLDO2": "rgb(0, 255, 0)",
       "BLDO3": "rgb(255, 0, 255)",
@@ -645,6 +649,7 @@
       "DCDC2": "rgb(221, 133, 0)",
       "DCDC3": "rgb(194, 0, 194)",
       "DCDC4": "rgb(194, 194, 0)",
+      "PS": "rgb(72, 0, 0)",
       "VDD06-DRAM": "rgb(132, 0, 0)"
     },
     "netclass_assignments": null,
@@ -1396,7 +1401,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U18,CN2-3,C152,C174-175,C198-202,C353-354,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR589,R233-240",
+    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR340,#PWR343,#PWR589-591,R233-240",
     "variants": []
   },
   "sheets": [

@@ -6533,16 +6533,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 34.29) (xy 205.74 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "145fe90b-8435-4e88-846a-a72b000ff99f")
-	)
-	(wire
-		(pts
 			(xy 124.46 24.13) (xy 124.46 26.67)
 		)
 		(stroke
@@ -6790,6 +6780,16 @@
 			(type default)
 		)
 		(uuid "28b63bd4-a7a1-4914-8fd6-423338137c03")
+	)
+	(wire
+		(pts
+			(xy 195.58 31.75) (xy 193.04 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa8748b-38e5-4900-9748-5cd1d3ef424d")
 	)
 	(wire
 		(pts
@@ -7820,6 +7820,16 @@
 			(type default)
 		)
 		(uuid "9ddda8e5-df7a-4ca9-8ea1-de5b6a99f60a")
+	)
+	(wire
+		(pts
+			(xy 193.04 31.75) (xy 193.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e585503-7275-4fe4-abe4-1894056d832e")
 	)
 	(wire
 		(pts
@@ -9487,140 +9497,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/c4211ff5-fd83-42c8-a691-42056585a0db"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda:AP64350SP-13")
-		(at 193.04 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07f459ee-d9f8-432a-8c5e-6569477bc9be")
-		(property "Reference" "U5"
-			(at 193.04 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP64350SP-13"
-			(at 193.04 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda:SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
-			(at 193.04 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2071691.pdf"
-			(at 193.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "DIODES(美台)"
-			(at 193.04 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP64350SP-13"
-			(at 193.04 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2071691"
-			(at 193.04 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "50b39ce6-9047-4c04-bdb8-68c11b34c3d7")
-		)
-		(pin "9"
-			(uuid "9467c1d6-de4c-4508-9873-497bc1ab6d75")
-		)
-		(pin "4"
-			(uuid "e329a986-abd6-4f69-ad54-da310df35fc1")
-		)
-		(pin "8"
-			(uuid "55fe3b13-d0e2-4f8a-af91-5e2de14f5479")
-		)
-		(pin "6"
-			(uuid "2c0cdcc1-b66d-4254-a97b-2cfaad4e9f77")
-		)
-		(pin "7"
-			(uuid "3ec55955-f7f5-4116-96f7-22ce05869a1d")
-		)
-		(pin "1"
-			(uuid "bdfac438-9380-4a98-9109-6edd6391e753")
-		)
-		(pin "3"
-			(uuid "9713ceb4-d900-44ec-a410-3e58a6792edf")
-		)
-		(pin "2"
-			(uuid "9b4625bb-cba7-44f9-84db-72eb59faebae")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/c4211ff5-fd83-42c8-a691-42056585a0db"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13360,7 +13236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 34.29 90)
+		(at 195.58 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +13247,7 @@
 		(fields_autoplaced yes)
 		(uuid "6806e62f-3b96-4bc7-bdf6-9fd60e5c8de3")
 		(property "Reference" "#PWR027"
-			(at 212.09 34.29 0)
+			(at 201.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13382,7 +13258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 34.2899 90)
+			(at 199.39 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13393,7 +13269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 34.29 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13404,7 +13280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 34.29 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,7 +13291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 34.29 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17816,6 +17692,140 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/c4211ff5-fd83-42c8-a691-42056585a0db"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:AP64350SP-13")
+		(at 193.04 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf95e366-4c24-4426-9922-7b4c0697f2b9")
+		(property "Reference" "U5"
+			(at 193.04 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP64350SP-13"
+			(at 193.04 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:SO-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2071691.pdf"
+			(at 193.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DIODES(美台)"
+			(at 193.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP64350SP-13"
+			(at 193.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2071691"
+			(at 193.04 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "925d87f2-67b6-4826-a42c-8b3fc9ca603b")
+		)
+		(pin "1"
+			(uuid "7ee250c2-23d2-4870-85d6-049414eb2a31")
+		)
+		(pin "6"
+			(uuid "2e373297-169b-4108-86bf-adabc3266c42")
+		)
+		(pin "5"
+			(uuid "6d5c602c-8cb6-44ab-9918-52730d5c298b")
+		)
+		(pin "4"
+			(uuid "6b5c569c-4308-443b-9a47-b674b8337c95")
+		)
+		(pin "2"
+			(uuid "a57d5e9b-e5bb-45ad-af6c-91a99cece230")
+		)
+		(pin "9"
+			(uuid "085a571c-9fcc-41a7-9661-a4c62b11a75a")
+		)
+		(pin "7"
+			(uuid "e4e42e60-78cd-4804-8a28-cff8a57fb26f")
+		)
+		(pin "8"
+			(uuid "8328a3f8-490d-4206-b87a-513c69769157")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/c4211ff5-fd83-42c8-a691-42056585a0db"
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -5883,145 +5883,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V0"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+1V0"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V0\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+1V0_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V0_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -6348,6 +6209,12 @@
 		(uuid "fe83ed2b-6fa6-424c-a39e-cc1dc933a9d8")
 	)
 	(junction
+		(at 132.08 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc9c6ef-6f80-4492-a9cb-94e293d9ed44")
+	)
+	(junction
 		(at 153.67 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6436,12 +6303,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2d9baac-5652-4173-9b72-3d401e617b47")
-	)
-	(junction
-		(at 132.08 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e478c979-f8ec-4e77-9969-4cb164b282fc")
 	)
 	(bus_entry
 		(at 49.53 59.69)
@@ -8775,88 +8636,6 @@
 				)
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
 					(reference "C216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 132.08 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0be60ebf-d7b7-487e-838d-0f155af4e412")
-		(property "Reference" "#PWR0305"
-			(at 132.08 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GM0_VDD10"
-			(at 132.08 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 132.08 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af1f24f8-b475-49f6-8c52-94fa37bf3dde")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/8dbcd277-0044-4a46-a7d8-a4fbff98b8e0"
-					(reference "#PWR0305")
-					(unit 1)
-				)
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
-					(reference "#PWR0343")
 					(unit 1)
 				)
 			)
@@ -12354,6 +12133,90 @@
 		)
 	)
 	(symbol
+		(lib_name "+1V0_1")
+		(lib_id "power:+1V0")
+		(at 125.73 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b383da37-0e63-4b21-a9d4-f58b77cda305")
+		(property "Reference" "#PWR0340"
+			(at 121.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GM_VDD10"
+			(at 129.54 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "871c993f-8d4b-448a-b06b-c8d84e4e0f1f")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/8dbcd277-0044-4a46-a7d8-a4fbff98b8e0"
+					(reference "#PWR0340")
+					(unit 1)
+				)
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
+					(reference "#PWR0591")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda:APH141208C2R2MP01")
 		(at 158.75 52.07 0)
 		(unit 1)
@@ -13346,6 +13209,89 @@
 				)
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
 					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+1V0_1")
+		(lib_id "power:+1V0")
+		(at 132.08 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da4b38d1-3cee-45ec-8f85-955bd8e27c68")
+		(property "Reference" "#PWR0343"
+			(at 132.08 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GM_VDD10"
+			(at 132.08 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8eb147-8c0f-4324-8a3f-b8f99a67d7cc")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/8dbcd277-0044-4a46-a7d8-a4fbff98b8e0"
+					(reference "#PWR0343")
+					(unit 1)
+				)
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
+					(reference "#PWR0590")
 					(unit 1)
 				)
 			)
@@ -14514,89 +14460,6 @@
 				)
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
 					(reference "#PWR0338")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 125.73 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb6756b-08a6-485c-966d-3268f6178254")
-		(property "Reference" "#PWR0302"
-			(at 121.92 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GM0_VDD10"
-			(at 129.54 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 125.73 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29672a16-5740-41e3-96d3-9dbb373d0b24")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/8dbcd277-0044-4a46-a7d8-a4fbff98b8e0"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/acce53b9-49b8-45d6-9f6f-dde333340d83"
-					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
