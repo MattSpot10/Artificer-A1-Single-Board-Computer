@@ -4869,6 +4869,16 @@
 		)
 		(uuid "1821f615-c178-4007-bd84-37313eccaf20")
 	)
+	(label "3.3Vaux"
+		(at 71.12 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19bd6b84-7cad-48f1-84fe-51712f27a267")
+	)
 	(label "PCIE-SM-SCK"
 		(at 27.94 53.34 0)
 		(effects

@@ -36248,6 +36248,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "0.9V"
 		(exclude_from_sim no)
@@ -36702,7 +36841,7 @@
 	)
 	(text "25.6mA"
 		(exclude_from_sim no)
-		(at 168.148 166.624 0)
+		(at 168.148 170.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37021,6 +37160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50c51afe-03c5-4140-8123-3129cfda8c02")
+	)
+	(junction
+		(at 162.56 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5305db19-c9f2-4060-a7a8-8fb2949c7f12")
 	)
 	(junction
 		(at 209.55 119.38)
@@ -37443,7 +37588,7 @@
 		(uuid "cfbdf959-1e91-4144-84f4-d43eb104a490")
 	)
 	(junction
-		(at 173.99 167.64)
+		(at 173.99 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a94e4a-be5d-4adb-83bd-ab51cb5979d5")
@@ -37782,6 +37927,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 163.83) (xy 162.56 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06337153-81ec-4928-8ca6-3c8aa2346ab0")
+	)
+	(wire
+		(pts
 			(xy 218.44 36.83) (xy 245.11 36.83)
 		)
 		(stroke
@@ -37862,6 +38017,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 163.83) (xy 189.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dde8dd-c871-429b-aedf-c1d17a7fc1a4")
+	)
+	(wire
+		(pts
 			(xy 30.48 200.66) (xy 30.48 196.85)
 		)
 		(stroke
@@ -37882,7 +38047,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 167.64) (xy 162.56 167.64)
+			(xy 173.99 171.45) (xy 162.56 171.45)
 		)
 		(stroke
 			(width 0)
@@ -38962,7 +39127,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 163.83) (xy 173.99 167.64)
+			(xy 173.99 167.64) (xy 173.99 171.45)
 		)
 		(stroke
 			(width 0)
@@ -39832,7 +39997,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 167.64) (xy 189.23 167.64)
+			(xy 173.99 171.45) (xy 189.23 171.45)
 		)
 		(stroke
 			(width 0)
@@ -40942,7 +41107,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 160.02) (xy 162.56 167.64)
+			(xy 162.56 160.02) (xy 162.56 163.83)
 		)
 		(stroke
 			(width 0)
@@ -41002,7 +41167,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 163.83) (xy 189.23 163.83)
+			(xy 173.99 167.64) (xy 189.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -49555,7 +49720,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 163.83 0)
+		(at 189.23 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49565,7 +49730,7 @@
 		(dnp no)
 		(uuid "692ba4a9-b1ec-48ce-9080-4ba578d268f3")
 		(property "Reference" "#PWR0152"
-			(at 189.23 167.64 0)
+			(at 189.23 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49576,7 +49741,7 @@
 			)
 		)
 		(property "Value" "VCC-LVDS0"
-			(at 181.356 162.306 0)
+			(at 182.118 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49586,7 +49751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 163.83 0)
+			(at 189.23 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49597,7 +49762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 163.83 0)
+			(at 189.23 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49608,7 +49773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 163.83 0)
+			(at 189.23 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54562,7 +54727,7 @@
 			)
 		)
 		(property "Value" "VCC-PC"
-			(at 181.356 158.496 0)
+			(at 183.388 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57290,6 +57455,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 189.23 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d099634a-a764-49c3-8e33-c484e11035f9")
+		(property "Reference" "#PWR081"
+			(at 189.23 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCCIO_FLASH"
+			(at 181.356 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdbe8506-4291-4a46-8877-271b0b3ee90c")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/ae3e07ef-f034-4788-a69a-5dbad0c7ebc1"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
 		(at 240.03 133.35 180)
 		(unit 1)
@@ -58558,7 +58800,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 167.64 0)
+		(at 189.23 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58568,7 +58810,7 @@
 		(dnp no)
 		(uuid "e20ca29d-7161-4cbb-a35e-6c5431741e8e")
 		(property "Reference" "#PWR0153"
-			(at 189.23 171.45 0)
+			(at 189.23 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58579,7 +58821,7 @@
 			)
 		)
 		(property "Value" "VCC-LVDS1"
-			(at 181.356 166.116 0)
+			(at 182.118 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58589,7 +58831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 167.64 0)
+			(at 189.23 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58600,7 +58842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 167.64 0)
+			(at 189.23 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58611,7 +58853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 167.64 0)
+			(at 189.23 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
