@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
-          "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -560,7 +560,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
-        "tuning_profile": "DIFF_90",
+        "tuning_profile": "",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -586,7 +586,7 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
-        "tuning_profile": "DIFF_90_MIPI",
+        "tuning_profile": "",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -610,7 +610,7 @@
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
-        "tuning_profile": "SE_50",
+        "tuning_profile": "",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -649,6 +649,7 @@
       "CLDO2": "rgb(132, 132, 0)",
       "CLDO3": "rgb(132, 0, 132)",
       "CLDO4": "rgb(0, 132, 132)",
+      "CPUSLDO": "rgb(0, 0, 194)",
       "DCDC1": "rgb(0, 194, 0)",
       "DCDC2": "rgb(221, 133, 0)",
       "DCDC3": "rgb(194, 0, 194)",
