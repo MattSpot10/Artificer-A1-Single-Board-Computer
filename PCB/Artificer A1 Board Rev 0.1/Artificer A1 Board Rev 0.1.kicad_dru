@@ -40,6 +40,18 @@
     (condition "A.Reference == 'U8' || B.Reference == 'U8'")
     (constraint clearance (min 0.091mm))
 )
+
+(rule "U8 BGA trace to pad clearance"
+    (constraint clearance (min 0.091mm))
+    (condition
+        "(A.Type == 'Pad' && A.memberOfFootprint('U8') && B.Type == 'Track') || (B.Type == 'Pad' && B.memberOfFootprint('U8') && A.Type == 'Track')"
+    )
+)
+
+
+
+
+
 (rule "U12 BGA clearance"
     (condition "A.Reference == 'U12' || B.Reference == 'U12'")
     (constraint clearance (min 0.10mm))

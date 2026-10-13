@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 1,
@@ -91,7 +91,24 @@
           "width": 0.109
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|108405000|132449624|402587bb-f955-49db-949c-2379d98126b2|f375d523-9c0f-4838-a894-fd42dcb23807",
+          "These two are meant to overlap"
+        ],
+        [
+          "courtyards_overlap|56605000|130558297|3f03ab68-8a4a-40b5-ba26-ba209cc63010|f375d523-9c0f-4838-a894-fd42dcb23807",
+          "These two are meant to overlap"
+        ],
+        [
+          "hole_clearance|115015000|72295000|1c1c9e01-290a-48cf-9061-730160a49c97|c19e8d10-b0b6-48ad-be0a-edd93bb4955d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|114715000|72295000|c19e8d10-b0b6-48ad-be0a-edd93bb4955d|1c1c9e01-290a-48cf-9061-730160a49c97",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -135,12 +152,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -173,10 +190,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.077,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.02,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -552,7 +569,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.137,
         "diff_pair_width": 0.102,
         "name": "DIFF_90",
@@ -565,7 +582,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.188,
         "diff_pair_width": 0.102,
         "name": "DIFF_90_INNER",
@@ -578,7 +595,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.163,
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
@@ -591,7 +608,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.381,
         "diff_pair_width": 0.102,
         "name": "ETH",
@@ -615,7 +632,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.127,
+        "clearance": 0.1,
         "name": "SE_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
@@ -1406,7 +1423,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,#PWR81,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR340,#PWR343,#PWR589-591,R233-240",
+    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,#PWR81,#PWR133,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR340,#PWR343,#PWR589-591,J3,R233-241,H7",
     "variants": []
   },
   "sheets": [

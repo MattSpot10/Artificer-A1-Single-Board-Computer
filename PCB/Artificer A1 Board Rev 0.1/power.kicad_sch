@@ -36764,7 +36764,7 @@
 		)
 		(uuid "b09d251d-687e-4022-82a5-a3ec1ca95a81")
 	)
-	(text "Connect to RTC power input on SoC"
+	(text "Only use if you want backup power for RTC"
 		(exclude_from_sim no)
 		(at 299.466 92.202 0)
 		(effects
