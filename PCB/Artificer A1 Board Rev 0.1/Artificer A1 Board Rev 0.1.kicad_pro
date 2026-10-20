@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.15,
+          "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.25,
@@ -583,24 +583,11 @@
       },
       {
         "clearance": 0.1,
-        "diff_pair_gap": 0.188,
-        "diff_pair_width": 0.102,
-        "name": "DIFF_90_INNER",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.102,
-        "tuning_profile": "",
-        "via_diameter": 0.3,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.1,
         "diff_pair_gap": 0.163,
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
@@ -613,7 +600,7 @@
         "diff_pair_width": 0.102,
         "name": "ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
@@ -624,20 +611,9 @@
         "clearance": 0.1,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
-        "tuning_profile": "",
-        "via_diameter": 0.3,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.1,
-        "name": "SE_50_INNER",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.102,
         "tuning_profile": "",
         "via_diameter": 0.3,
         "via_drill": 0.2
@@ -733,7 +709,7 @@
         "pattern": "*DBG_*"
       },
       {
-        "netclass": "DIFF_90_INNER",
+        "netclass": "DIFF_90",
         "pattern": "*SDQS2*"
       },
       {
@@ -749,11 +725,11 @@
         "pattern": "*AUX_CH*"
       },
       {
-        "netclass": "DIFF_90_INNER",
+        "netclass": "DIFF_90",
         "pattern": "*SCKA*"
       },
       {
-        "netclass": "DIFF_90_INNER",
+        "netclass": "DIFF_90",
         "pattern": "*SCKB*"
       }
     ]
@@ -1507,7 +1483,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5877400,
+            "delay": 5634600,
             "diff_pair_gap": 163000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
@@ -1515,7 +1491,7 @@
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5991200,
+            "delay": 5634600,
             "diff_pair_gap": 163000,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In4.Cu",
@@ -1523,7 +1499,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 188000,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
@@ -1531,7 +1507,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 188000,
             "signal_layer": "In3.Cu",
             "top_reference_layer": "In1.Cu",
@@ -1549,7 +1525,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5606200,
+            "delay": 5300800,
             "diff_pair_gap": 0,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
@@ -1557,7 +1533,7 @@
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5606200,
+            "delay": 5300800,
             "diff_pair_gap": 0,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In4.Cu",
@@ -1565,7 +1541,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 0,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
@@ -1573,7 +1549,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 0,
             "signal_layer": "In3.Cu",
             "top_reference_layer": "In1.Cu",
@@ -1591,7 +1567,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5957500,
+            "delay": 5604800,
             "diff_pair_gap": 137000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
@@ -1599,7 +1575,7 @@
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5957500,
+            "delay": 5604800,
             "diff_pair_gap": 137000,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In4.Cu",
@@ -1607,7 +1583,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 188000,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
@@ -1615,7 +1591,7 @@
           },
           {
             "bottom_reference_layer": "In4.Cu",
-            "delay": 7094700,
+            "delay": 7060500,
             "diff_pair_gap": 188000,
             "signal_layer": "In3.Cu",
             "top_reference_layer": "In1.Cu",
