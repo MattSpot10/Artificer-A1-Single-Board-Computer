@@ -31,6 +31,9 @@
 
 (version 1)
 
+
+
+
 (rule "U8 BGA trace width"
     (condition "A.Reference == 'U8'")
     (constraint track_width (min 0.077mm) (opt 0.077mm) (max 0.077mm))
@@ -52,7 +55,16 @@
 
 
 
-(rule "U12 BGA clearance"
-    (condition "A.Reference == 'U12' || B.Reference == 'U12'")
-    (constraint clearance (min 0.10mm))
+
+(rule "Escape Area General Rules"
+    (condition "(A.enclosedByArea('BGA_ESCAPE_ZONE') || A.enclosedByArea('DRAM_ESCAPE') || A.enclosedByArea('ETH_ESCAPE_1') || A.enclosedByArea('ETH_ESCAPE_2')) && !A.memberOfFootprint('U8') && !B.memberOfFootprint('U8') && !((A.Type == 'Zone' && B.Type == 'Track') || (A.Type == 'Track' && B.Type == 'Zone'))")
+    (constraint clearance (min 0.1mm))
 )
+
+
+(rule "Zone to Via Minimum Clearance"
+    (condition "(A.Type == 'Zone' && B.Type == 'Via') || (A.Type == 'Via' && B.Type == 'Zone')")
+    (constraint clearance (min 0.15mm))
+)
+
+
