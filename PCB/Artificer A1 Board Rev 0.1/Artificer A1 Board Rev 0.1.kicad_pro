@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.05,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.15,
+          "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.25,
@@ -574,10 +574,23 @@
         "diff_pair_width": 0.102,
         "name": "DIFF_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
+        "via_diameter": 0.3,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.375,
+        "diff_pair_gap": 0.137,
+        "diff_pair_width": 0.102,
+        "name": "DIFF_90_DDR4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.102,
+        "tuning_profile": "DIFF_90",
         "via_diameter": 0.3,
         "via_drill": 0.2
       },
@@ -587,7 +600,7 @@
         "diff_pair_width": 0.109,
         "name": "DIFF_MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
@@ -600,7 +613,7 @@
         "diff_pair_width": 0.102,
         "name": "ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "tuning_profile": "",
@@ -611,7 +624,7 @@
         "clearance": 0.23,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "tuning_profile": "",
@@ -666,10 +679,6 @@
       },
       {
         "netclass": "DIFF_90",
-        "pattern": "*EDP-*"
-      },
-      {
-        "netclass": "DIFF_90",
         "pattern": "*PCIE*"
       },
       {
@@ -706,10 +715,10 @@
       },
       {
         "netclass": "DIFF_90",
-        "pattern": "*DBG_*"
+        "pattern": "*DBG_D*"
       },
       {
-        "netclass": "DIFF_90",
+        "netclass": "DIFF_90_DDR4",
         "pattern": "*SDQS*"
       },
       {
@@ -725,11 +734,11 @@
         "pattern": "*AUX_CH*"
       },
       {
-        "netclass": "DIFF_90",
+        "netclass": "DIFF_90_DDR4",
         "pattern": "*SCKA*"
       },
       {
-        "netclass": "DIFF_90",
+        "netclass": "DIFF_90_DDR4",
         "pattern": "*SCKB*"
       },
       {
@@ -750,15 +759,19 @@
       },
       {
         "netclass": "SE_50",
-        "pattern": "*BT-*"
-      },
-      {
-        "netclass": "SE_50",
-        "pattern": "*WL-W*"
+        "pattern": "*BT-P*"
       },
       {
         "netclass": "SE_50",
         "pattern": "*SAB*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*EDP-T*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*EDP-A*"
       }
     ]
   },
