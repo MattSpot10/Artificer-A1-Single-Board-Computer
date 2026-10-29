@@ -567,6 +567,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "T527M00X0DCH_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -38922,6 +39123,12 @@
 		(uuid "391554e4-d5a1-4a65-be62-81e4c4e57bef")
 	)
 	(junction
+		(at 134.62 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431c25e2-c8df-4544-87db-15a0c44c98ba")
+	)
+	(junction
 		(at 87.63 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -39136,10 +39343,6 @@
 		(uuid "635ec7dd-1ea5-488c-a868-79585ba9d122")
 	)
 	(no_connect
-		(at 53.34 83.82)
-		(uuid "6684c948-f3f0-4af4-babc-4fa51dcd3d4e")
-	)
-	(no_connect
 		(at 53.34 104.14)
 		(uuid "66e91286-da89-40c6-ade1-9942e67ccdc0")
 	)
@@ -39230,10 +39433,6 @@
 	(no_connect
 		(at 167.64 205.74)
 		(uuid "c516318d-03c4-4c14-a743-af484ea21156")
-	)
-	(no_connect
-		(at 53.34 81.28)
-		(uuid "c6a1e30f-f354-401b-89e9-123b35b7642c")
 	)
 	(no_connect
 		(at 167.64 53.34)
@@ -43357,6 +43556,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 273.05) (xy 134.62 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7957f23e-4867-4396-9664-d7e1d128557c")
+	)
+	(wire
+		(pts
 			(xy 86.36 257.81) (xy 86.36 260.35)
 		)
 		(stroke
@@ -43917,6 +44126,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 81.28) (xy 53.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a56d57-6e16-468c-a220-c67b7ba3f1a7")
+	)
+	(wire
+		(pts
 			(xy 208.28 179.07) (xy 233.68 179.07)
 		)
 		(stroke
@@ -44074,6 +44293,16 @@
 			(type default)
 		)
 		(uuid "aa53f43e-7fe0-4c0a-810b-ca0317b37e60")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab387ca1-6478-4bac-b536-401087325ceb")
 	)
 	(wire
 		(pts
@@ -45925,6 +46154,16 @@
 		)
 		(uuid "2ac495c3-23eb-4756-9011-79e5ec8ff1bd")
 	)
+	(label "LED1"
+		(at 116.84 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b68f155-0a98-4a0e-8e95-d7c88f03aa94")
+	)
 	(label "DSI0-D2N"
 		(at 394.97 44.45 180)
 		(effects
@@ -46294,6 +46533,16 @@
 			(justify right bottom)
 		)
 		(uuid "5f577178-89d8-4416-9fbb-f65a4e18b3b9")
+	)
+	(label "LED2"
+		(at 134.62 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "633b3687-889c-4608-a141-bcb2ffd93d3a")
 	)
 	(label "PI7"
 		(at 101.5668 107.95 180)
@@ -46704,6 +46953,16 @@
 			(justify right bottom)
 		)
 		(uuid "8901d456-e738-4152-a1b4-d8d624137ff8")
+	)
+	(label "LED2"
+		(at 40.64 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a1af0ed-a77e-47ed-bb64-6dd5de4509eb")
 	)
 	(label "SPI0_WP"
 		(at 21.59 179.07 0)
@@ -47494,6 +47753,16 @@
 			(justify right bottom)
 		)
 		(uuid "dd8ab823-b65c-4a29-9305-3733f6c2faea")
+	)
+	(label "LED1"
+		(at 40.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "debd1db9-1135-499c-b35d-a4ee98037af6")
 	)
 	(label "SDC1-D3"
 		(at 31.75 124.46 0)
@@ -55797,6 +56066,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 116.84 261.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55acb3e2-3763-4631-afc7-1df09cf5c860")
+		(property "Reference" "D17"
+			(at 120.65 261.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN LED"
+			(at 120.65 264.4774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 116.84 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32a8d1e2-9b5d-48e4-85c6-e53724224d60")
+		)
+		(pin "2"
+			(uuid "7763f2f8-66e2-47bb-8da0-37360abdeea3")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 104.14 270)
 		(unit 1)
@@ -55961,6 +56323,84 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
 					(reference "C332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 273.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2a98bd-c6c5-4a60-ac18-5d8a2e388739")
+		(property "Reference" "#PWR0420"
+			(at 134.62 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c04164f-7ba0-4fde-97a9-d6cc9e5e25d7")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -57008,6 +57448,87 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
 					(reference "#PWR0515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 134.62 269.24 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "957638b3-3325-4931-acf0-493eddba56c5")
+		(property "Reference" "R245"
+			(at 136.906 269.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 134.62 269.24 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 132.842 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad18c4f-c619-4d1f-852a-3700b07fdeaa")
+		)
+		(pin "2"
+			(uuid "2595dc98-f8a0-43bf-a208-7c5fc7dfb860")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
+					(reference "R245")
 					(unit 1)
 				)
 			)
@@ -58643,6 +59164,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 134.62 261.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f3dbcb-c89e-4dd0-91eb-c8f79b487651")
+		(property "Reference" "D18"
+			(at 138.43 261.9374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN LED"
+			(at 138.43 264.4774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 134.62 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 134.62 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea0acbfb-9390-4d55-a6c8-7d870de582c5")
+		)
+		(pin "2"
+			(uuid "ca279349-b5e4-41fa-ba5a-a7f929a75c91")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Cap:JLCPCB_Lib_Blank_Cap")
 		(at 109.22 232.41 270)
 		(unit 1)
@@ -58967,6 +59581,87 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
 					(reference "R213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cap:JLCPCB_Res_Custom")
+		(at 116.84 269.24 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efbb19b1-e0d8-42e7-96ae-4d678d8b4ba8")
+		(property "Reference" "R244"
+			(at 119.126 269.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 116.84 269.24 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 115.062 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46d44031-6665-4826-91e0-22a86502b49f")
+		)
+		(pin "2"
+			(uuid "3588e628-51d1-428f-9843-cb2a180198cd")
+		)
+		(instances
+			(project "Artificer A1 Board Rev 0.1"
+				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/3a972511-eab0-4845-81c2-3892196d9716"
+					(reference "R244")
 					(unit 1)
 				)
 			)

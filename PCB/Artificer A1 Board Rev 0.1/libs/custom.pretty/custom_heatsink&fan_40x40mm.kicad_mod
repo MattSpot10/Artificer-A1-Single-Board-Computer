@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "13b5bbda-2414-4fa6-bb1a-39f8f700e96f")
+		(uuid "4eb0013f-6277-4186-becd-a35af7cb9ee1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "173c3d76-0f09-4d57-9ca2-e2ae78d81ba2")
+		(uuid "f02174c3-5223-4852-a986-98a604b4874f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9bfd87c5-0b74-4f9e-9a90-29a6eab3a0f5")
+		(uuid "520367b2-ffd5-41b8-a996-25920fe30a24")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "20ffa80d-8276-4f41-81e7-79cce36b899e")
+		(uuid "347c1ed3-41be-4ec3-9997-27406abbec4b")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,6 @@
 			)
 		)
 	)
-	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -20 -20)
@@ -64,13 +63,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4edf7820-bb2f-4c5d-b583-75cb3c51c581")
+		(uuid "3c1de8d8-dc34-444e-9cfb-b026a1eff6fc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9d466d0d-579c-466b-acbe-41f4bbb11077")
+		(uuid "cfc00d46-0b35-44f4-9ac7-e625cb8bed2a")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +84,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "35c424cd-386c-4548-b80e-5d206cc833e5")
+		(uuid "f40fca0f-1a5e-4722-b119-4e333203e67e")
 	)
 	(pad "2" thru_hole circle
 		(at 17.5 -17.5)
@@ -94,7 +93,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "26ab6b4b-dfcc-4315-994b-a0e158fe50e8")
+		(uuid "19272a13-cad8-41f6-bedd-ed8e7bd9a46d")
 	)
 	(pad "3" thru_hole circle
 		(at -17.5 17.5)
@@ -103,7 +102,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "a439ed64-b9fc-4c61-9c31-4fbadf1d47b3")
+		(uuid "f2fdcb7e-3b7c-4a71-a788-ac720783a60f")
 	)
 	(pad "4" thru_hole circle
 		(at 17.5 17.5)
@@ -112,7 +111,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "2287b7a5-aa0d-4e0e-97b6-bf100cb427e5")
+		(uuid "75ac1db1-e26d-4d9a-afd0-098028bbfd5d")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/matts/Documents/Custom SBC/Artificer A1/Artificer-A1-Single-Board-Computer/PCB/Artificer A1 Board Rev 0.1/libs/custom.3dshapes/Fan-2.step"

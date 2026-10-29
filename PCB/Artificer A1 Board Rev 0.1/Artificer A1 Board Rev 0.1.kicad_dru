@@ -57,8 +57,8 @@
 
 
 (rule "Escape Area General Rules"
-    (condition "(A.enclosedByArea('BGA_ESCAPE_ZONE') || A.enclosedByArea('DRAM_ESCAPE') || A.enclosedByArea('ETH_ESCAPE_1') || A.enclosedByArea('ETH_ESCAPE_2')) && !A.memberOfFootprint('U8') && !B.memberOfFootprint('U8') && !((A.Type == 'Zone' && B.Type == 'Track') || (A.Type == 'Track' && B.Type == 'Zone'))")
-    (constraint clearance (min 0.1mm))
+    (condition "(A.enclosedByArea('BGA_ESCAPE_ZONE') || A.enclosedByArea('DRAM_ESCAPE') || A.enclosedByArea('ETH_ESCAPE_1') || A.enclosedByArea('ETH_ESCAPE_2') || A.enclosedByArea('PERIPHERAL') || A.enclosedByArea('USBC')) && !A.memberOfFootprint('U8') && !B.memberOfFootprint('U8') && !((A.Type == 'Zone' && (B.Type == 'Track' || B.Type == 'Pad')) || ((A.Type == 'Track' || A.Type == 'Pad') && B.Type == 'Zone'))")
+    (constraint clearance (min 0.10mm))
 )
 
 
@@ -67,4 +67,9 @@
     (constraint clearance (min 0.15mm))
 )
 
+
+(rule "Footprint Internal Pad-to-Pad Only"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Parent == B.Parent")
+    (constraint clearance (min 0.075mm))
+)
 

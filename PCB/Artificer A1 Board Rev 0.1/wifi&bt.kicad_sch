@@ -2230,7 +2230,7 @@
 	)
 	(text "Either a chip antenna or an external antenna through an IPEX connector are supported"
 		(exclude_from_sim no)
-		(at 230.378 107.696 0)
+		(at 339.852 121.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,6 +2611,16 @@
 		)
 		(uuid "2a6f3684-355a-4a0e-a4a5-72c9ba58e094")
 	)
+	(wire
+		(pts
+			(xy 201.93 72.39) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6997ac-4dd4-4ff6-96b1-ba0e6afa779b")
+	)
 	(bus
 		(pts
 			(xy 158.75 110.49) (xy 158.75 113.03)
@@ -2630,16 +2640,6 @@
 			(type default)
 		)
 		(uuid "33468f5b-58b2-43c7-b2b1-3de383916c1d")
-	)
-	(wire
-		(pts
-			(xy 205.74 72.39) (xy 241.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ceb40b-1d95-4195-b121-e1c9f5a214d8")
 	)
 	(wire
 		(pts
@@ -2720,16 +2720,6 @@
 			(type default)
 		)
 		(uuid "6187339f-d152-4e03-a19d-ddb4f418036e")
-	)
-	(wire
-		(pts
-			(xy 209.55 77.47) (xy 209.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d5854d-2565-4cea-99fe-76192e801bb5")
 	)
 	(bus
 		(pts
@@ -2873,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 195.58 74.93)
+			(xy 128.27 74.93) (xy 201.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3033,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 77.47) (xy 209.55 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29a0d84-9efd-4887-9c37-adcb4ac51512")
-	)
-	(wire
-		(pts
 			(xy 80.01 100.33) (xy 77.47 100.33)
 		)
 		(stroke
@@ -3143,6 +3123,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 72.39) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67e43f8-ae2f-46b1-95d8-7296eb8a1a5d")
+	)
+	(wire
+		(pts
 			(xy 215.9 54.61) (xy 213.36 54.61)
 		)
 		(stroke
@@ -3180,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "fdb92e9f-1f58-443b-9a77-d13c10735e3a")
-	)
-	(wire
-		(pts
-			(xy 222.25 93.98) (xy 217.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0e1df2-de89-4682-b56e-50abd6918cba")
 	)
 	(wire
 		(pts
@@ -3802,85 +3782,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
 					(reference "#PWR0419")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 93.98 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ff10cb6-f144-4207-8423-51851557bf78")
-		(property "Reference" "#PWR0420"
-			(at 223.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80fb5c5f-5fd5-4632-be27-75574558a9fb")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
-					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -5014,17 +4915,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
-		(at 200.66 74.93 0)
+		(at 320.04 91.44 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "9bac871a-4403-4e54-a05a-67e9c8d62ad6")
 		(property "Reference" "R194"
-			(at 200.66 66.04 0)
+			(at 320.04 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5034,7 +4935,7 @@
 			)
 		)
 		(property "Value" "0Ω"
-			(at 200.66 68.58 0)
+			(at 320.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5044,7 +4945,7 @@
 			)
 		)
 		(property "Footprint" "custom footprints:RF_Select_0201_L_Shape"
-			(at 200.66 74.93 0)
+			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 74.93 0)
+			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +4967,7 @@
 			)
 		)
 		(property "Description" "0201 Resistor selector Footprint"
-			(at 200.152 80.772 0)
+			(at 319.532 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5095,19 +4996,19 @@
 	)
 	(symbol
 		(lib_id "easyeda:U.FL-R-SMT-1(80)")
-		(at 209.55 91.44 0)
+		(at 320.04 105.41 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a21cd97a-f08e-402c-9190-9d65096c69e9")
 		(property "Reference" "JP1"
-			(at 209.55 99.06 0)
+			(at 320.04 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5117,7 +5018,7 @@
 			)
 		)
 		(property "Value" "U.FL-R-SMT-1(80)"
-			(at 209.55 101.6 0)
+			(at 320.04 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5127,7 +5028,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:RF-SMD_FRF05002-JSS103M"
-			(at 209.55 78.74 0)
+			(at 320.04 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5039,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_HRS_U-FL-R-SMT-1-80_3310472280-IPE-XBoard-end-IPXConnector-SMD_C88374.html"
-			(at 209.55 76.2 0)
+			(at 320.04 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +5050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 91.44 0)
+			(at 320.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5061,7 @@
 			)
 		)
 		(property "LCSC Part" "C88374"
-			(at 209.55 73.66 0)
+			(at 320.04 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,86 +5514,6 @@
 			(project "Artificer A1 Board Rev 0.1"
 				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 93.98 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9c2978e-244f-4fa4-a8a8-07c6acda36b3")
-		(property "Reference" "#PWR0417"
-			(at 190.5 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83f04ac2-4218-4099-b7ee-e9610f96ab5d")
-		)
-		(instances
-			(project "Artificer A1 Board Rev 0.1"
-				(path "/7c37bdb5-94b0-4567-b5ec-a879db855389/bb518e39-315f-4fac-931f-ad14a14e5ca9"
-					(reference "#PWR0417")
 					(unit 1)
 				)
 			)

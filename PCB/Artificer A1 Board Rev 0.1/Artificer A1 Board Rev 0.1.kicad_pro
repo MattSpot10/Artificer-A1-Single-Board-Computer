@@ -608,7 +608,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.1,
+        "clearance": 0.5715,
         "diff_pair_gap": 0.381,
         "diff_pair_width": 0.102,
         "name": "ETH",
@@ -679,10 +679,6 @@
       },
       {
         "netclass": "DIFF_90",
-        "pattern": "*PCIE*"
-      },
-      {
-        "netclass": "DIFF_90",
         "pattern": "*USB3*"
       },
       {
@@ -722,7 +718,7 @@
         "pattern": "*SDQS*"
       },
       {
-        "netclass": "SE_50",
+        "netclass": "Default",
         "pattern": "*SPI*"
       },
       {
@@ -772,6 +768,26 @@
       {
         "netclass": "DIFF_90",
         "pattern": "*EDP-A*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE-CLK*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE-R*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE-T*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE-D*"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "*PCIE_*"
       }
     ]
   },
@@ -1440,7 +1456,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,#PWR81,#PWR133,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR340,#PWR343,#PWR589-591,J3,R233-241,H7",
+    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,D2,D16-18,#PWR81,#PWR133,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR302,#PWR305,#PWR340,#PWR343,#PWR417,#PWR420,#PWR589-591,J3,R233-245,H7",
     "variants": []
   },
   "sheets": [
