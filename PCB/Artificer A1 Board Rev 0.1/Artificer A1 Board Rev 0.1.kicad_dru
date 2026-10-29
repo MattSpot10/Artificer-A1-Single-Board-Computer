@@ -57,7 +57,7 @@
 
 
 (rule "Escape Area General Rules"
-    (condition "(A.enclosedByArea('BGA_ESCAPE_ZONE') || A.enclosedByArea('DRAM_ESCAPE') || A.enclosedByArea('ETH_ESCAPE_1') || A.enclosedByArea('ETH_ESCAPE_2') || A.enclosedByArea('PERIPHERAL') || A.enclosedByArea('USBC')) && !A.memberOfFootprint('U8') && !B.memberOfFootprint('U8') && !((A.Type == 'Zone' && (B.Type == 'Track' || B.Type == 'Pad')) || ((A.Type == 'Track' || A.Type == 'Pad') && B.Type == 'Zone'))")
+    (condition "(A.enclosedByArea('BGA_ESCAPE_ZONE') || A.enclosedByArea('DRAM_ESCAPE') || A.enclosedByArea('ETH_ESCAPE_1') || A.enclosedByArea('ETH_ESCAPE_2') || A.enclosedByArea('PERIPHERAL') || A.enclosedByArea('USBC') || A.enclosedByArea('PERIPHERAL2')) && !A.memberOfFootprint('U8') && !B.memberOfFootprint('U8') && !((A.Type == 'Zone' && (B.Type == 'Track' || B.Type == 'Pad')) || ((A.Type == 'Track' || A.Type == 'Pad') && B.Type == 'Zone'))")
     (constraint clearance (min 0.10mm))
 )
 
