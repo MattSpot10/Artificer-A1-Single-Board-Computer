@@ -73,3 +73,7 @@
     (constraint clearance (min 0.075mm))
 )
 
+
+(rule "Clearance_GND_Zone_to_ANT0"
+   (constraint clearance (min 0.375mm))
+   (condition "A.NetName == 'ANT0' && B.NetName == 'GND' && B.Type == 'zone'"))

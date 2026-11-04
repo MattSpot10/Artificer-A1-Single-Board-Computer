@@ -6,8 +6,8 @@
 	(property "Reference" "F**"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4eb0013f-6277-4186-becd-a35af7cb9ee1")
+		(layer "Dwgs.User")
+		(uuid "b0f858ba-6c9c-4975-8aaf-1bb96660728c")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f02174c3-5223-4852-a986-98a604b4874f")
+		(uuid "238cc3c9-88b8-40bc-adfa-e164a6a33297")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "520367b2-ffd5-41b8-a996-25920fe30a24")
+		(uuid "0b9147cb-0405-4cbe-a498-b5427173117e")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "347c1ed3-41be-4ec3-9997-27406abbec4b")
+		(uuid "883b312f-46fb-41c1-a147-987cc530def1")
 		(effects
 			(font
 				(size 1 1)
@@ -62,14 +62,14 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
-		(uuid "3c1de8d8-dc34-444e-9cfb-b026a1eff6fc")
+		(layer "Dwgs.User")
+		(uuid "08144b9d-6e87-42d9-9531-1d79c472b7b3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "cfc00d46-0b35-44f4-9ac7-e625cb8bed2a")
+		(uuid "67332c4b-48a8-4c64-9685-dd9e4523e5af")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "f40fca0f-1a5e-4722-b119-4e333203e67e")
+		(uuid "3c5fdf7c-6011-486a-94b3-c2131cd13d41")
 	)
 	(pad "2" thru_hole circle
 		(at 17.5 -17.5)
@@ -93,7 +93,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "19272a13-cad8-41f6-bedd-ed8e7bd9a46d")
+		(uuid "7b15b4c1-9ad4-423d-8860-c3e4379fda05")
 	)
 	(pad "3" thru_hole circle
 		(at -17.5 17.5)
@@ -102,7 +102,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "f2fdcb7e-3b7c-4a71-a788-ac720783a60f")
+		(uuid "fd26ce9f-4aed-41d7-a7eb-e7fd9f39ca48")
 	)
 	(pad "4" thru_hole circle
 		(at 17.5 17.5)
@@ -111,7 +111,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "75ac1db1-e26d-4d9a-afd0-098028bbfd5d")
+		(uuid "b9d03bb0-7f19-444f-ac98-743c4d504b33")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/matts/Documents/Custom SBC/Artificer A1/Artificer-A1-Single-Board-Computer/PCB/Artificer A1 Board Rev 0.1/libs/custom.3dshapes/Fan-2.step"
