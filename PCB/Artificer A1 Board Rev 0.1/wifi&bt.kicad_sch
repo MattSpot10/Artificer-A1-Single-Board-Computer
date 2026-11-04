@@ -3331,6 +3331,16 @@
 		)
 		(uuid "b9f97292-b803-435d-8b06-2e340c8cbb61")
 	)
+	(label "5.5G"
+		(at 256.54 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c758ca28-2a79-4d95-b2c7-5ca513093d72")
+	)
 	(label "BT-UART-RX"
 		(at 49.53 77.47 0)
 		(effects
@@ -3350,6 +3360,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce25585e-dce1-4d6a-9948-a3e9250a38b6")
+	)
+	(label "2.4G"
+		(at 223.52 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d88cddf0-1931-4c8e-a556-8a29ece2d4d7")
 	)
 	(label "WL-WAKE-AP"
 		(at 156.21 102.87 180)
