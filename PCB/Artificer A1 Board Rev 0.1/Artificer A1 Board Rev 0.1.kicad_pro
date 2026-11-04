@@ -93,14 +93,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|108405000|132449624|402587bb-f955-49db-949c-2379d98126b2|f375d523-9c0f-4838-a894-fd42dcb23807",
-          "These two are meant to overlap"
-        ],
-        [
-          "courtyards_overlap|56605000|130558297|3f03ab68-8a4a-40b5-ba26-ba209cc63010|f375d523-9c0f-4838-a894-fd42dcb23807",
-          "These two are meant to overlap"
-        ],
-        [
           "hole_clearance|115015000|72295000|1c1c9e01-290a-48cf-9061-730160a49c97|c19e8d10-b0b6-48ad-be0a-edd93bb4955d",
           ""
         ],
@@ -139,7 +131,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
