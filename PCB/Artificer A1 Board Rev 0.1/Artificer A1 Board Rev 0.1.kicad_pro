@@ -918,13 +918,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1101,24 +1101,30 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Voltage Rated",
+          "group_by": true,
+          "label": "Rating",
           "name": "Voltage Rated",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Voltage Rated"
     },
     "bus_aliases": {
       "AUDIO": [
@@ -1412,7 +1418,7 @@
         "uuid": "7c37bdb5-94b0-4567-b5ec-a879db855389"
       }
     ],
-    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,D2,D16-18,#PWR81,#PWR133,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR302,#PWR305,#PWR340,#PWR343,#PWR417,#PWR420,#PWR589-591,J3,R233-245,H7",
+    "used_designators": "U5,U18,CN2-3,C152,C174-175,C198-202,C353-354,D2,D16-18,#PWR81,#PWR133,#PWR149,#PWR169,#PWR196,#PWR249,#PWR252,#PWR259,#PWR261,#PWR264,#PWR274,#PWR281,#PWR302,#PWR305,#PWR340,#PWR343,#PWR417,#PWR420,#PWR589-591,J3,R233-245,H7,Q8",
     "variants": []
   },
   "sheets": [
